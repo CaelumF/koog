@@ -6,7 +6,7 @@ import okhttp3.RequestBody.Companion.asRequestBody
 import org.gradle.api.tasks.testing.logging.TestExceptionFormat.FULL
 import java.util.*
 
-group = "ai.koog"
+group = "com.github.caelumf.koog"
 version = run {
     // our version follows the semver specification
 
