@@ -5,6 +5,7 @@ import org.gradle.api.Project
 import org.gradle.api.artifacts.dsl.RepositoryHandler
 import org.gradle.api.publish.PublishingExtension
 import org.gradle.api.publish.maven.MavenPublication
+import java.net.URI
 import java.net.URL
 
 
@@ -12,6 +13,7 @@ object Publishing {
     fun Project.publishToMaven() {
         publishTo({
             it.graziePublic(project)
+            it.githubPackages(project)
             it.artifactsMaven(project)
         }) {
             it.publications(
@@ -26,7 +28,7 @@ object Publishing {
 
                                 pom.name.set(this@publishToMaven.name)
                                 pom.description.set("Koog is a framework for quickly creating AI agents in Kotlin with minimal effort.")
-                                pom.url.set("https://github.com/JetBrains/koog")
+                                pom.url.set("https://github.com/caelumf/koog")
 
                                 pom.licenses(
                                     Action {
@@ -51,10 +53,10 @@ object Publishing {
                                             Action {
                                                 val developer = this
 
-                                                developer.id.set("JetBrains")
-                                                developer.name.set("JetBrains Team")
-                                                developer.organization.set("JetBrains")
-                                                developer.organizationUrl.set("https://www.jetbrains.com")
+                                                developer.id.set("caelumf")
+                                                developer.name.set("Caelum F")
+                                                developer.organization.set("caelumf")
+                                                developer.organizationUrl.set("https://github.com/caelumf")
                                             }
                                         )
                                     }
@@ -63,7 +65,7 @@ object Publishing {
                                 pom.scm(
                                     Action {
                                         val scm = this
-                                        scm.url.set("https://github.com/JetBrains/koog.git")
+                                        scm.url.set("https://github.com/caelumf/koog.git")
                                     }
                                 )
                             }
@@ -114,6 +116,32 @@ object Publishing {
 
                         cred.password = project.properties["spacePassword"]?.toString()
                             ?: System.getenv("JB_SPACE_CLIENT_SECRET")
+                    }
+                )
+            }
+        )
+    }
+    
+    private fun RepositoryHandler.githubPackages(project: Project) {
+        maven(
+            Action {
+                val repo = this
+
+                repo.name = "GitHubPackages"
+                repo.url = URI.create("https://maven.pkg.github.com/caelumf/koog")
+
+                repo.credentials(
+                    Action {
+                        val cred = this
+
+                        // Use GITHUB_TOKEN environment variable or github.token project property
+                        cred.username = project.properties["github.username"]?.toString()
+                            ?: System.getenv("GITHUB_USERNAME")
+                            ?: "caelumf"
+
+                        cred.password = project.properties["github.token"]?.toString()
+                            ?: System.getenv("GITHUB_TOKEN")
+                            ?: ""
                     }
                 )
             }
