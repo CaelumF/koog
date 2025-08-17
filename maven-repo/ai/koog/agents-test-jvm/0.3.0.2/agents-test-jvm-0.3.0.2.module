@@ -1,0 +1,254 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../agents-test/0.3.0.2/agents-test-0.3.0.2.module",
+    "group": "ai.koog",
+    "module": "agents-test",
+    "version": "0.3.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "0.3.0.2"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-ext",
+          "version": {
+            "requires": "0.3.0.2"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-openai-client",
+          "version": {
+            "requires": "0.3.0.2"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-llms-all",
+          "version": {
+            "requires": "0.3.0.2"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-tokenizer",
+          "version": {
+            "requires": "0.3.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test"
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "26.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-test-jvm-0.3.0.2.jar",
+          "url": "agents-test-jvm-0.3.0.2.jar",
+          "size": 159034,
+          "sha512": "19c92410f52eb0281e1b2c704e5e7c8139f590c59b0e801caf7eedc885c61802ce2524dae3dae41e1dc54bdf82a71acf2ac9f0993f8e2b4539ab27e6d49eb5a0",
+          "sha256": "98b66c88ce649a59c10730569bb0a03257d81a13214ea8cbfcdc61b804fe5308",
+          "sha1": "9d9bb8aaae5ae2497e378219e0197cfbcfb978a3",
+          "md5": "235d8bb8b7d18aaf98140a6da2696339"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "0.3.0.2"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-ext",
+          "version": {
+            "requires": "0.3.0.2"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-openai-client",
+          "version": {
+            "requires": "0.3.0.2"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-llms-all",
+          "version": {
+            "requires": "0.3.0.2"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-tokenizer",
+          "version": {
+            "requires": "0.3.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test"
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "26.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.5.13"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.7"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-test-jvm-0.3.0.2.jar",
+          "url": "agents-test-jvm-0.3.0.2.jar",
+          "size": 159034,
+          "sha512": "19c92410f52eb0281e1b2c704e5e7c8139f590c59b0e801caf7eedc885c61802ce2524dae3dae41e1dc54bdf82a71acf2ac9f0993f8e2b4539ab27e6d49eb5a0",
+          "sha256": "98b66c88ce649a59c10730569bb0a03257d81a13214ea8cbfcdc61b804fe5308",
+          "sha1": "9d9bb8aaae5ae2497e378219e0197cfbcfb978a3",
+          "md5": "235d8bb8b7d18aaf98140a6da2696339"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "agents-test-jvm-0.3.0.2-sources.jar",
+          "url": "agents-test-jvm-0.3.0.2-sources.jar",
+          "size": 37981,
+          "sha512": "83eeb08644f31b04a16eccf9672273b2229c67ab6f85932db184fbfa67dc7cf23bf1050d74f211cbc781da31068e1fb8a9d852c45c74c857df1e02bd881e6fbe",
+          "sha256": "9caf661e8651e8028463fb92efa31ed9398f35fd614d1e41fab4984d704e548a",
+          "sha1": "c8e273daee8cfc59aba23f10f8a72ccff263ac97",
+          "md5": "6af396a09e4b999954a43027cd332e0d"
+        }
+      ]
+    }
+  ]
+}

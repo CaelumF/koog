@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../embeddings-base/0.3.0.2/embeddings-base-0.3.0.2.module",
+    "group": "ai.koog",
+    "module": "embeddings-base",
+    "version": "0.3.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "embeddings-base-wasm-js-0.3.0.2.klib",
+          "url": "embeddings-base-wasm-js-0.3.0.2.klib",
+          "size": 13837,
+          "sha512": "3c0f394ecadb3679844a7734d1a0b34f1c312300e5e7e50eda5fe427fbaed8c8c7992084504ffc8f1d272444e6194c50e04aa2351d899eca39e524f86a06197c",
+          "sha256": "14caad7dc6b24d998022bd941086ab1e4eb2e29653c0283c45ae61b87478494d",
+          "sha1": "a2f08117d1ee22a484100633c3a14b6aa5b8d29b",
+          "md5": "272afcd50c41a8881b59be48b624afe6"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "embeddings-base-wasm-js-0.3.0.2.klib",
+          "url": "embeddings-base-wasm-js-0.3.0.2.klib",
+          "size": 13837,
+          "sha512": "3c0f394ecadb3679844a7734d1a0b34f1c312300e5e7e50eda5fe427fbaed8c8c7992084504ffc8f1d272444e6194c50e04aa2351d899eca39e524f86a06197c",
+          "sha256": "14caad7dc6b24d998022bd941086ab1e4eb2e29653c0283c45ae61b87478494d",
+          "sha1": "a2f08117d1ee22a484100633c3a14b6aa5b8d29b",
+          "md5": "272afcd50c41a8881b59be48b624afe6"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "embeddings-base-wasm-js-0.3.0.2-sources.jar",
+          "url": "embeddings-base-wasm-js-0.3.0.2-sources.jar",
+          "size": 2866,
+          "sha512": "e81dfdb729687f3ad3e8fa95ff68071a2110bcc0cac9b1ccc7b540294c7b727b6a5a936d6a30ecaf2e00271cae521bc83fee28d3a603cd293aea42993299e10b",
+          "sha256": "fb733ac421cc959291dd802d0a4f62ea02d187d38b6ba657d53a3f4bc3c7199d",
+          "sha1": "2aec73c029fe70e9c2cbb65df91fc875ab28280e",
+          "md5": "a47ba90ec1994339e340b7926f4e5bef"
+        }
+      ]
+    }
+  ]
+}

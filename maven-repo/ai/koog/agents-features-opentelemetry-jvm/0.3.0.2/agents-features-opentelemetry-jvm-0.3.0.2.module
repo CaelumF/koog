@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../agents-features-opentelemetry/0.3.0.2/agents-features-opentelemetry-0.3.0.2.module",
+    "group": "ai.koog",
+    "module": "agents-features-opentelemetry",
+    "version": "0.3.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-bom",
+          "version": {
+            "requires": "1.51.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk"
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "0.3.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-features-opentelemetry-jvm-0.3.0.2.jar",
+          "url": "agents-features-opentelemetry-jvm-0.3.0.2.jar",
+          "size": 234078,
+          "sha512": "6c17639281f4f049047e45380fd2e1dedcc9c412e936848d0de79c7b80a811a89619e81e0e02509e70d6e9af07e4f064486840974251f26355923e53cd74b504",
+          "sha256": "fe4cce81ac5c6bdd97db2f833ad966e1fb9600e0ce3d27d769ed1b761d36c353",
+          "sha1": "1fab7e4470bd6a9b9cbb0e01742276b2b6eb27d8",
+          "md5": "63d509b237daa41074e2f0080b037ba1"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-bom",
+          "version": {
+            "requires": "1.51.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk"
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "0.3.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-exporter-otlp"
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-exporter-logging"
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-features-opentelemetry-jvm-0.3.0.2.jar",
+          "url": "agents-features-opentelemetry-jvm-0.3.0.2.jar",
+          "size": 234078,
+          "sha512": "6c17639281f4f049047e45380fd2e1dedcc9c412e936848d0de79c7b80a811a89619e81e0e02509e70d6e9af07e4f064486840974251f26355923e53cd74b504",
+          "sha256": "fe4cce81ac5c6bdd97db2f833ad966e1fb9600e0ce3d27d769ed1b761d36c353",
+          "sha1": "1fab7e4470bd6a9b9cbb0e01742276b2b6eb27d8",
+          "md5": "63d509b237daa41074e2f0080b037ba1"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "agents-features-opentelemetry-jvm-0.3.0.2-sources.jar",
+          "url": "agents-features-opentelemetry-jvm-0.3.0.2-sources.jar",
+          "size": 34459,
+          "sha512": "e81e08e1fdba0ec975c91f1d1c19733f4e28d5e1e6e396272787b042d829f545fcc18e38d196f4339c051af798cba308d1d2f8227efb131b2443199d9d00cecf",
+          "sha256": "30e8ad4d4678e424095f1608da1242bc96f1e79a1d1c2ef711819453ad1a4202",
+          "sha1": "7187650008d9ac0d20f624e76c1ac61d0248d632",
+          "md5": "03107b2f99a4e8edb6d8009e79abd325"
+        }
+      ]
+    }
+  ]
+}

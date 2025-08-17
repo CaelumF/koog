@@ -1,0 +1,226 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.koog",
+    "module": "embeddings-base",
+    "version": "0.3.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "embeddings-base-metadata-0.3.0.2.jar",
+          "url": "embeddings-base-0.3.0.2.jar",
+          "size": 3377,
+          "sha512": "a98e52d786e8cc3fbeac36ab3f40e65be34c19719e2ea280e8a47bc27ff61a5a2d9c6fb0f61e02c8e5317ee839c62745db664e1d11ae665d54ec3c7b3392fb4a",
+          "sha256": "d88924fe5b6ffa480f68e8d27b01c0b824b1c1b7dcfabd495071d6c8f50203ac",
+          "sha1": "08d533d01e734bdc4caaffdcc7452a4dcd853fd2",
+          "md5": "1e1348fd7cc23e6d89386546870aa043"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "embeddings-base-kotlin-0.3.0.2-sources.jar",
+          "url": "embeddings-base-0.3.0.2-sources.jar",
+          "size": 2866,
+          "sha512": "e81dfdb729687f3ad3e8fa95ff68071a2110bcc0cac9b1ccc7b540294c7b727b6a5a936d6a30ecaf2e00271cae521bc83fee28d3a603cd293aea42993299e10b",
+          "sha256": "fb733ac421cc959291dd802d0a4f62ea02d187d38b6ba657d53a3f4bc3c7199d",
+          "sha1": "2aec73c029fe70e9c2cbb65df91fc875ab28280e",
+          "md5": "a47ba90ec1994339e340b7926f4e5bef"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../embeddings-base-js/0.3.0.2/embeddings-base-js-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "embeddings-base-js",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../embeddings-base-js/0.3.0.2/embeddings-base-js-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "embeddings-base-js",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../embeddings-base-js/0.3.0.2/embeddings-base-js-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "embeddings-base-js",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../embeddings-base-jvm/0.3.0.2/embeddings-base-jvm-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "embeddings-base-jvm",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../embeddings-base-jvm/0.3.0.2/embeddings-base-jvm-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "embeddings-base-jvm",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../embeddings-base-jvm/0.3.0.2/embeddings-base-jvm-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "embeddings-base-jvm",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../embeddings-base-wasm-js/0.3.0.2/embeddings-base-wasm-js-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "embeddings-base-wasm-js",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../embeddings-base-wasm-js/0.3.0.2/embeddings-base-wasm-js-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "embeddings-base-wasm-js",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../embeddings-base-wasm-js/0.3.0.2/embeddings-base-wasm-js-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "embeddings-base-wasm-js",
+        "version": "0.3.0.2"
+      }
+    }
+  ]
+}

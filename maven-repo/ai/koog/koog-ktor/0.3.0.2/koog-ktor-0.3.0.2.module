@@ -1,0 +1,247 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.koog",
+    "module": "koog-ktor",
+    "version": "0.3.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "koog-agents",
+          "version": {
+            "requires": "0.3.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koog-ktor-metadata-0.3.0.2.jar",
+          "url": "koog-ktor-0.3.0.2.jar",
+          "size": 7419,
+          "sha512": "3dc44109e6de4b59227844dfd24cfc3b224ddeb2c5ee420a9e7cfe9e8229cad2794ad54e5c3acf6dc1f0ae948f2f766fe51f2c573e9de05fbac5dafc3681b248",
+          "sha256": "982e19dbff605359842acd182d328ece7fed0a29c8972e4223f8cfcef72ec898",
+          "sha1": "fe268b797e6d8e5aa1718df636b1455131388287",
+          "md5": "7188b5ff19c33b79adc4dbf8648b8b06"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "koog-ktor-kotlin-0.3.0.2-sources.jar",
+          "url": "koog-ktor-0.3.0.2-sources.jar",
+          "size": 16262,
+          "sha512": "2b313098ebf3357d0e5055778254f003d44043a33a79937908b0a7e13ad9fc6e4265721ed2fff119822ef6f75bdb9e52b12b6df9e5154b73cae4cbf85c9a2518",
+          "sha256": "7ee8c56285c7bb7f39a5a6b5de3d3b2a58c116eaaa292138fb67228fcde6fd5b",
+          "sha1": "592ff0c04c09553735b6d84b4aebffd5ce4b5a12",
+          "md5": "c922462cb1a1512646ea7e43cdbc418f"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../koog-ktor-js/0.3.0.2/koog-ktor-js-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "koog-ktor-js",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../koog-ktor-js/0.3.0.2/koog-ktor-js-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "koog-ktor-js",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../koog-ktor-js/0.3.0.2/koog-ktor-js-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "koog-ktor-js",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../koog-ktor-jvm/0.3.0.2/koog-ktor-jvm-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "koog-ktor-jvm",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../koog-ktor-jvm/0.3.0.2/koog-ktor-jvm-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "koog-ktor-jvm",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../koog-ktor-jvm/0.3.0.2/koog-ktor-jvm-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "koog-ktor-jvm",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../koog-ktor-wasm-js/0.3.0.2/koog-ktor-wasm-js-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "koog-ktor-wasm-js",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../koog-ktor-wasm-js/0.3.0.2/koog-ktor-wasm-js-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "koog-ktor-wasm-js",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../koog-ktor-wasm-js/0.3.0.2/koog-ktor-wasm-js-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "koog-ktor-wasm-js",
+        "version": "0.3.0.2"
+      }
+    }
+  ]
+}

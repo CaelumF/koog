@@ -1,0 +1,226 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.koog",
+    "module": "agents-utils",
+    "version": "0.3.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-utils-metadata-0.3.0.2.jar",
+          "url": "agents-utils-0.3.0.2.jar",
+          "size": 2683,
+          "sha512": "05fb2735fd9b4a47d57ffc35f82197fa5eca1cdf69aea8890cb1f280c5346700112e46b897b263573573aa23bf8b1ca7513e11541a6907469d6650811777b0a9",
+          "sha256": "5fa96e1f45d4d66cd1c90bb4def0cacbfa1e8f26f27eb5b57fb0f4ccaa1a553e",
+          "sha1": "18932047529553bf93fc3415efdd37b037ce1fe6",
+          "md5": "48925ab2428b489999fd3c767ff5691d"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "agents-utils-kotlin-0.3.0.2-sources.jar",
+          "url": "agents-utils-0.3.0.2-sources.jar",
+          "size": 1970,
+          "sha512": "7a7321bf795b0d265d2fff473dc9fa0f439e9c7824892652fbc885c43cc1d59a2e164f6dd2eef12c3f6cbde78214f9a9b0dd1aa67b6056ec6ba4b7639c5656f2",
+          "sha256": "d26c226a1fde93142e0b3c2619fcafe4cc2c166854e77f17a86f1dc338a5dd36",
+          "sha1": "47ae6b84e885422f2f0778ec4bb7e25783cf974b",
+          "md5": "a5484491dbc28423f73cfe859d5e6dc2"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../agents-utils-js/0.3.0.2/agents-utils-js-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "agents-utils-js",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../agents-utils-js/0.3.0.2/agents-utils-js-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "agents-utils-js",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../agents-utils-js/0.3.0.2/agents-utils-js-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "agents-utils-js",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../agents-utils-jvm/0.3.0.2/agents-utils-jvm-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "agents-utils-jvm",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../agents-utils-jvm/0.3.0.2/agents-utils-jvm-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "agents-utils-jvm",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../agents-utils-jvm/0.3.0.2/agents-utils-jvm-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "agents-utils-jvm",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../agents-utils-wasm-js/0.3.0.2/agents-utils-wasm-js-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "agents-utils-wasm-js",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../agents-utils-wasm-js/0.3.0.2/agents-utils-wasm-js-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "agents-utils-wasm-js",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../agents-utils-wasm-js/0.3.0.2/agents-utils-wasm-js-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "agents-utils-wasm-js",
+        "version": "0.3.0.2"
+      }
+    }
+  ]
+}

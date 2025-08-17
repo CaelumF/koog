@@ -1,0 +1,240 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.koog",
+    "module": "prompt-tokenizer",
+    "version": "0.3.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "prompt-llm",
+          "version": {
+            "requires": "0.3.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-tokenizer-metadata-0.3.0.2.jar",
+          "url": "prompt-tokenizer-0.3.0.2.jar",
+          "size": 4036,
+          "sha512": "69df15bc680d62f6e8b67b10dca168af110b19df72568b928d53e8c01d4a3a64e308ab1119edd7a6aaad4143dfd506cb524865978e107a64f15a3af31ee97360",
+          "sha256": "3bdbae2b9227f5f6800f0f9e2d6f43c16a7f810aea608486f0dd49bc570190ec",
+          "sha1": "70696abb5344734b98b2233e852f24d0761aafc6",
+          "md5": "24c7d15715a5261a4cbe88369d3cc0f5"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "prompt-tokenizer-kotlin-0.3.0.2-sources.jar",
+          "url": "prompt-tokenizer-0.3.0.2-sources.jar",
+          "size": 5324,
+          "sha512": "9f20b03ab6292e425bc851b11683b9cc6ce0dddc3d6b6b4b042350ed5486fae56b2c116309542261cfa4869e16b5437b411d2d6b4318f65747484d3538ad780a",
+          "sha256": "2dc6d3700773b4af3f73e9246fdce6d96535ffeb1534ae1d7c0410fe314453bb",
+          "sha1": "4e09855b24b57f5baa052bb8ae81407de6f91891",
+          "md5": "f8a904bee7024e89c1166a9ba9c72e34"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-tokenizer-js/0.3.0.2/prompt-tokenizer-js-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "prompt-tokenizer-js",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-tokenizer-js/0.3.0.2/prompt-tokenizer-js-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "prompt-tokenizer-js",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-tokenizer-js/0.3.0.2/prompt-tokenizer-js-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "prompt-tokenizer-js",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../prompt-tokenizer-jvm/0.3.0.2/prompt-tokenizer-jvm-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "prompt-tokenizer-jvm",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../prompt-tokenizer-jvm/0.3.0.2/prompt-tokenizer-jvm-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "prompt-tokenizer-jvm",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../prompt-tokenizer-jvm/0.3.0.2/prompt-tokenizer-jvm-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "prompt-tokenizer-jvm",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-tokenizer-wasm-js/0.3.0.2/prompt-tokenizer-wasm-js-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "prompt-tokenizer-wasm-js",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-tokenizer-wasm-js/0.3.0.2/prompt-tokenizer-wasm-js-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "prompt-tokenizer-wasm-js",
+        "version": "0.3.0.2"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-tokenizer-wasm-js/0.3.0.2/prompt-tokenizer-wasm-js-0.3.0.2.module",
+        "group": "ai.koog",
+        "module": "prompt-tokenizer-wasm-js",
+        "version": "0.3.0.2"
+      }
+    }
+  ]
+}
