@@ -1,0 +1,263 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../prompt-executor-bedrock-client/0.3.0.3/prompt-executor-bedrock-client-0.3.0.3.module",
+    "group": "ai.koog",
+    "module": "prompt-executor-bedrock-client",
+    "version": "0.3.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-tools",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-utils",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-clients",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-llm",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-model",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-executor-bedrock-client-jvm-0.3.0.3.jar",
+          "url": "prompt-executor-bedrock-client-jvm-0.3.0.3.jar",
+          "size": 290673,
+          "sha512": "d4bac1c01034180914b91fb1db83c48080bd5488bc61703bc168ecfb718793060d9b32a0c2efe7d5d70e9426c1c25dae5e5565aa4707292058f8c7ccffd1a555",
+          "sha256": "4f5a3c97808d33be9f5dbad0681142f08e0411cb806a22c1bed8f1f0ceb0ab31",
+          "sha1": "d571c100d4799b3c1c9c821bf9fdeac333c0def7",
+          "md5": "026d7196db46cff74b3f19cafeb6de2d"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-tools",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-utils",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-clients",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-llm",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-model",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-anthropic-client",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "aws.sdk.kotlin",
+          "module": "bedrockruntime",
+          "version": {
+            "requires": "1.4.119"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-executor-bedrock-client-jvm-0.3.0.3.jar",
+          "url": "prompt-executor-bedrock-client-jvm-0.3.0.3.jar",
+          "size": 290673,
+          "sha512": "d4bac1c01034180914b91fb1db83c48080bd5488bc61703bc168ecfb718793060d9b32a0c2efe7d5d70e9426c1c25dae5e5565aa4707292058f8c7ccffd1a555",
+          "sha256": "4f5a3c97808d33be9f5dbad0681142f08e0411cb806a22c1bed8f1f0ceb0ab31",
+          "sha1": "d571c100d4799b3c1c9c821bf9fdeac333c0def7",
+          "md5": "026d7196db46cff74b3f19cafeb6de2d"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "prompt-executor-bedrock-client-jvm-0.3.0.3-sources.jar",
+          "url": "prompt-executor-bedrock-client-jvm-0.3.0.3-sources.jar",
+          "size": 21720,
+          "sha512": "9491a6d22dbb050efc7c66dd6556b4b1c1966c44eb025cf8ec7459f3c35683c2542ee5c314ef771081cdb6fa5411e259627b3bd273f1a68f0383db6f5f46cb2c",
+          "sha256": "6f6760b0034fe7d0a45718664d16df8414ef65470134e82b428ab4859618de73",
+          "sha1": "122e4131eb414dc1162c07c1f4f21c428dfec868",
+          "md5": "59bf77a0e01412f82fade43bc23b0278"
+        }
+      ]
+    }
+  ]
+}

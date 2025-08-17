@@ -1,0 +1,186 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../agents-features-debugger/0.3.0.3/agents-features-debugger-0.3.0.3.module",
+    "group": "ai.koog",
+    "module": "agents-features-debugger",
+    "version": "0.3.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-sse",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-features-debugger-js-0.3.0.3.klib",
+          "url": "agents-features-debugger-js-0.3.0.3.klib",
+          "size": 21572,
+          "sha512": "1ec4e21db1e1ebb17e9b8e155b8ea3a6a249a4088f9268915b47efe5746a6f0a6f60860897e6935af31182c0450130cec088d269fbff920a7e47379ee9680969",
+          "sha256": "68ed95df3a32b472d028da4a137031d1797e574e8b58cd36c1245087b845d781",
+          "sha1": "9eb1caaecb65bdb4c2e9b280b2dc7ccc7e221902",
+          "md5": "8d020e8811ebd54a2dff44c3f3b84e55"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-sse",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-features-debugger-js-0.3.0.3.klib",
+          "url": "agents-features-debugger-js-0.3.0.3.klib",
+          "size": 21572,
+          "sha512": "1ec4e21db1e1ebb17e9b8e155b8ea3a6a249a4088f9268915b47efe5746a6f0a6f60860897e6935af31182c0450130cec088d269fbff920a7e47379ee9680969",
+          "sha256": "68ed95df3a32b472d028da4a137031d1797e574e8b58cd36c1245087b845d781",
+          "sha1": "9eb1caaecb65bdb4c2e9b280b2dc7ccc7e221902",
+          "md5": "8d020e8811ebd54a2dff44c3f3b84e55"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "agents-features-debugger-js-0.3.0.3-sources.jar",
+          "url": "agents-features-debugger-js-0.3.0.3-sources.jar",
+          "size": 6955,
+          "sha512": "4226cb8b826b6fed011cbe970f7a92590d16d980f88a1570cf055a37c80e5b6b9d3646bb57de3099cff3bf95be255b6a812d27035272df3b43d89f01d9672383",
+          "sha256": "ebd2eeb5ca504cef38e06bae897deea4a06fa30db0ce76ec12f796e60fdef0d5",
+          "sha1": "dfd32d3c06cda0e11ee6cf1f4f5e03deae4385b1",
+          "md5": "3f60e806bde1d3f136438f82b800f510"
+        }
+      ]
+    }
+  ]
+}

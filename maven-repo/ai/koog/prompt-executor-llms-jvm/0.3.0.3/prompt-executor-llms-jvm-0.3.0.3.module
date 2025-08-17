@@ -1,0 +1,193 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../prompt-executor-llms/0.3.0.3/prompt-executor-llms-0.3.0.3.module",
+    "group": "ai.koog",
+    "module": "prompt-executor-llms",
+    "version": "0.3.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-clients",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-model",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-tools",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-llm",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-model",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-executor-llms-jvm-0.3.0.3.jar",
+          "url": "prompt-executor-llms-jvm-0.3.0.3.jar",
+          "size": 24152,
+          "sha512": "dd13886f3004194d56f0f7e384f60401c6a4c5623529cca436ebafda2795400a608724590ad9473c21e951c3d72c8faa4c6b28e01536d29d530fd04a7ce86486",
+          "sha256": "11a01829868dedb11dc0372f11bcd042e68253fbb8792bc8247be72b50000966",
+          "sha1": "ca6c6a303645c1a353c70329528871e0198965c4",
+          "md5": "4e8d636cbf03ac3672e094d14c15ff25"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-clients",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-model",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-tools",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-llm",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-model",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-executor-llms-jvm-0.3.0.3.jar",
+          "url": "prompt-executor-llms-jvm-0.3.0.3.jar",
+          "size": 24152,
+          "sha512": "dd13886f3004194d56f0f7e384f60401c6a4c5623529cca436ebafda2795400a608724590ad9473c21e951c3d72c8faa4c6b28e01536d29d530fd04a7ce86486",
+          "sha256": "11a01829868dedb11dc0372f11bcd042e68253fbb8792bc8247be72b50000966",
+          "sha1": "ca6c6a303645c1a353c70329528871e0198965c4",
+          "md5": "4e8d636cbf03ac3672e094d14c15ff25"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "prompt-executor-llms-jvm-0.3.0.3-sources.jar",
+          "url": "prompt-executor-llms-jvm-0.3.0.3-sources.jar",
+          "size": 4662,
+          "sha512": "a2abccd591a749f639d52684fbc65a7b96f8a0c1c214ae427f0ac87759e2e83b13beed6cbbd4561d96ab91dfa66c9a1a47e0bbe5c63f51a7c5209e0e6b8716c6",
+          "sha256": "4e770f73bfb17387fa9e05bdc70731a08c3edde3741e2a12a7de7e097f810725",
+          "sha1": "e8449b0d6bfa6915d7002b94fa833b675ddeb23e",
+          "md5": "5427be1e4d7344e38e3c534142e91e13"
+        }
+      ]
+    }
+  ]
+}

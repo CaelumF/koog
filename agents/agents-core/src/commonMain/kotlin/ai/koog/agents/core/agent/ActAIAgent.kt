@@ -49,6 +49,10 @@ public class ActAIAgent<Input, Output>(
     public val featureContext: FeatureContext.() -> Unit = {}
 ) : AIAgent<Input, Output> {
 
+    init {
+        FeatureContext(this).featureContext()
+    }
+
     private companion object {
         private val logger = KotlinLogging.logger {}
     }

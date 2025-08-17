@@ -1,0 +1,142 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../agents-tools/0.3.0.3/agents-tools-0.3.0.3.module",
+    "group": "ai.koog",
+    "module": "agents-tools",
+    "version": "0.3.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-tools-jvm-0.3.0.3.jar",
+          "url": "agents-tools-jvm-0.3.0.3.jar",
+          "size": 109550,
+          "sha512": "8512cd30c23c449b9c961df91369b39a3d11de01d0fd683e98c9b4d7f8030f8ee178c0776395ff8c8ae83d1c96a11343d6d9e03862352075a51baa5fb222ad86",
+          "sha256": "8e99f7ec96a3e3da72458d5fe5878789dfc56d6b5d6de9b8d1b48c3d63460015",
+          "sha1": "88544de4a9e446cbeefe2970812e987a40482d41",
+          "md5": "3d6a63b877a2ad64ece6d153ea2819b8"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-tools-jvm-0.3.0.3.jar",
+          "url": "agents-tools-jvm-0.3.0.3.jar",
+          "size": 109550,
+          "sha512": "8512cd30c23c449b9c961df91369b39a3d11de01d0fd683e98c9b4d7f8030f8ee178c0776395ff8c8ae83d1c96a11343d6d9e03862352075a51baa5fb222ad86",
+          "sha256": "8e99f7ec96a3e3da72458d5fe5878789dfc56d6b5d6de9b8d1b48c3d63460015",
+          "sha1": "88544de4a9e446cbeefe2970812e987a40482d41",
+          "md5": "3d6a63b877a2ad64ece6d153ea2819b8"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "agents-tools-jvm-0.3.0.3-sources.jar",
+          "url": "agents-tools-jvm-0.3.0.3-sources.jar",
+          "size": 22831,
+          "sha512": "763a30d6f6bf267e150690e69012e02157318d4f60918a4470c02a5976c16f405441c952a985ded56a2e698e49089677291ebf810466152980c88a4118f19ad3",
+          "sha256": "37f035852a915127179c2267c7759d6a0621adb071b4509feebdcd77dbaec0dd",
+          "sha1": "4b9f6d44aacb516fd3ee08fc526c87c17e1c84e3",
+          "md5": "9a7253419da328075860ba0d191ff77d"
+        }
+      ]
+    }
+  ]
+}

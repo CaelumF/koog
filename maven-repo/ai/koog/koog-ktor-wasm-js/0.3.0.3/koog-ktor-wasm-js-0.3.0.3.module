@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../koog-ktor/0.3.0.3/koog-ktor-0.3.0.3.module",
+    "group": "ai.koog",
+    "module": "koog-ktor",
+    "version": "0.3.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "koog-agents",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koog-ktor-wasm-js-0.3.0.3.klib",
+          "url": "koog-ktor-wasm-js-0.3.0.3.klib",
+          "size": 63494,
+          "sha512": "e16e3ebd93e8d2f7a6f5c0063eab2330ad2e094597a80e5ef9710f59e245f9d6ccc2d20bc94c292d5ff95753982dc787b27b08692f119255e651ed54b3802f03",
+          "sha256": "794998637b970174975eb3badd9e50dcf3efb618d1fb0c7e228ccb43c0106e05",
+          "sha1": "4df11b992084ad4d01dbcb11187cf0a3b0ecd733",
+          "md5": "872ab56382328cd75013476beb125a14"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "koog-agents",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koog-ktor-wasm-js-0.3.0.3.klib",
+          "url": "koog-ktor-wasm-js-0.3.0.3.klib",
+          "size": 63494,
+          "sha512": "e16e3ebd93e8d2f7a6f5c0063eab2330ad2e094597a80e5ef9710f59e245f9d6ccc2d20bc94c292d5ff95753982dc787b27b08692f119255e651ed54b3802f03",
+          "sha256": "794998637b970174975eb3badd9e50dcf3efb618d1fb0c7e228ccb43c0106e05",
+          "sha1": "4df11b992084ad4d01dbcb11187cf0a3b0ecd733",
+          "md5": "872ab56382328cd75013476beb125a14"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "koog-ktor-wasm-js-0.3.0.3-sources.jar",
+          "url": "koog-ktor-wasm-js-0.3.0.3-sources.jar",
+          "size": 16262,
+          "sha512": "2b313098ebf3357d0e5055778254f003d44043a33a79937908b0a7e13ad9fc6e4265721ed2fff119822ef6f75bdb9e52b12b6df9e5154b73cae4cbf85c9a2518",
+          "sha256": "7ee8c56285c7bb7f39a5a6b5de3d3b2a58c116eaaa292138fb67228fcde6fd5b",
+          "sha1": "592ff0c04c09553735b6d84b4aebffd5ce4b5a12",
+          "md5": "c922462cb1a1512646ea7e43cdbc418f"
+        }
+      ]
+    }
+  ]
+}

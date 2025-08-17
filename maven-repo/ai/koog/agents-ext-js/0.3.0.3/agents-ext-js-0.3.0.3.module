@@ -1,0 +1,172 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../agents-ext/0.3.0.3/agents-ext-0.3.0.3.module",
+    "group": "ai.koog",
+    "module": "agents-ext",
+    "version": "0.3.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-tools",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-utils",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-ext-js-0.3.0.3.klib",
+          "url": "agents-ext-js-0.3.0.3.klib",
+          "size": 59756,
+          "sha512": "c9b197a871fc92bf73598802ac278494022d902afa8337d22da28dd5ee13a8f0b89ca0fbc77d63dbb2efbc965198b1f3d348d5fc0cf02db93158421b7d448e25",
+          "sha256": "dd719c3564e442f3e7781f616312b231bb17f61a200fa7acc6fefffcf64a7acf",
+          "sha1": "66a265926030d0277a2d23df3667ce600591da9d",
+          "md5": "62ae94640d5375dbce4334180a5e55c8"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-tools",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-utils",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-ext-js-0.3.0.3.klib",
+          "url": "agents-ext-js-0.3.0.3.klib",
+          "size": 59756,
+          "sha512": "c9b197a871fc92bf73598802ac278494022d902afa8337d22da28dd5ee13a8f0b89ca0fbc77d63dbb2efbc965198b1f3d348d5fc0cf02db93158421b7d448e25",
+          "sha256": "dd719c3564e442f3e7781f616312b231bb17f61a200fa7acc6fefffcf64a7acf",
+          "sha1": "66a265926030d0277a2d23df3667ce600591da9d",
+          "md5": "62ae94640d5375dbce4334180a5e55c8"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "agents-ext-js-0.3.0.3-sources.jar",
+          "url": "agents-ext-js-0.3.0.3-sources.jar",
+          "size": 15660,
+          "sha512": "d595d7273d7f55ffae4f6431b05057446610ef1cd669bf6df2207b6c135cd1e8def4450f90b71c8348c274614a914f787579848de16192cfc28ed81c879f1c38",
+          "sha256": "022362051cc88c5d1d4303b9ff0601c3d8078c6222d0266e6c3080527246bdd3",
+          "sha1": "d8614bf76dc191e67761ac9b0213f066d9b80460",
+          "md5": "6cd796ed1435b716c8251eac651905a3"
+        }
+      ]
+    }
+  ]
+}

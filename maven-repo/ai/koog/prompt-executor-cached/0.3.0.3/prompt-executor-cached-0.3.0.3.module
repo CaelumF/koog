@@ -1,0 +1,247 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.koog",
+    "module": "prompt-executor-cached",
+    "version": "0.3.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "prompt-cache-model",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-model",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-executor-cached-metadata-0.3.0.3.jar",
+          "url": "prompt-executor-cached-0.3.0.3.jar",
+          "size": 3153,
+          "sha512": "3b1eb8c663a140eb38daa7b1e6c62727bf5eed1e1e5a350d1b803fda78a00c9b1825c9629ec7df5b246e3ba9e6c2e73285fa996d06c30836a5816bb2bbc97403",
+          "sha256": "b176eab281a76a39fcfe039ad9bb0310c2944c076c882e6a4c99eadcdf08e942",
+          "sha1": "2659f1b4ac83da9339f4ac346212d418cabf164e",
+          "md5": "1288c4113d6741d18078cf6ecd704c2d"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "prompt-executor-cached-kotlin-0.3.0.3-sources.jar",
+          "url": "prompt-executor-cached-0.3.0.3-sources.jar",
+          "size": 2987,
+          "sha512": "83fb175f7c5495efd1d75b37fdad7e535cf4b6f811457abddcffd72acc454df23b2f7f5de2b86209a3bfaccf5728baf1024629be687ce09870323cc926c504c1",
+          "sha256": "2afedb0e077a9c559c6eefe9819c4c7479c1aaeb6728083a112a5d2eea90b035",
+          "sha1": "7e59a6e29654ab3bbe8e5d6655a036588c4ce23c",
+          "md5": "cdd8a853879b856cfdd0a954821f1362"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-executor-cached-js/0.3.0.3/prompt-executor-cached-js-0.3.0.3.module",
+        "group": "ai.koog",
+        "module": "prompt-executor-cached-js",
+        "version": "0.3.0.3"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-executor-cached-js/0.3.0.3/prompt-executor-cached-js-0.3.0.3.module",
+        "group": "ai.koog",
+        "module": "prompt-executor-cached-js",
+        "version": "0.3.0.3"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-executor-cached-js/0.3.0.3/prompt-executor-cached-js-0.3.0.3.module",
+        "group": "ai.koog",
+        "module": "prompt-executor-cached-js",
+        "version": "0.3.0.3"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../prompt-executor-cached-jvm/0.3.0.3/prompt-executor-cached-jvm-0.3.0.3.module",
+        "group": "ai.koog",
+        "module": "prompt-executor-cached-jvm",
+        "version": "0.3.0.3"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../prompt-executor-cached-jvm/0.3.0.3/prompt-executor-cached-jvm-0.3.0.3.module",
+        "group": "ai.koog",
+        "module": "prompt-executor-cached-jvm",
+        "version": "0.3.0.3"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../prompt-executor-cached-jvm/0.3.0.3/prompt-executor-cached-jvm-0.3.0.3.module",
+        "group": "ai.koog",
+        "module": "prompt-executor-cached-jvm",
+        "version": "0.3.0.3"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-executor-cached-wasm-js/0.3.0.3/prompt-executor-cached-wasm-js-0.3.0.3.module",
+        "group": "ai.koog",
+        "module": "prompt-executor-cached-wasm-js",
+        "version": "0.3.0.3"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-executor-cached-wasm-js/0.3.0.3/prompt-executor-cached-wasm-js-0.3.0.3.module",
+        "group": "ai.koog",
+        "module": "prompt-executor-cached-wasm-js",
+        "version": "0.3.0.3"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-executor-cached-wasm-js/0.3.0.3/prompt-executor-cached-wasm-js-0.3.0.3.module",
+        "group": "ai.koog",
+        "module": "prompt-executor-cached-wasm-js",
+        "version": "0.3.0.3"
+      }
+    }
+  ]
+}

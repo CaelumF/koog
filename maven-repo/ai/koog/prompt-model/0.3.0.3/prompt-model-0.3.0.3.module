@@ -1,0 +1,247 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.koog",
+    "module": "prompt-model",
+    "version": "0.3.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "prompt-llm",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-model-metadata-0.3.0.3.jar",
+          "url": "prompt-model-0.3.0.3.jar",
+          "size": 15973,
+          "sha512": "e08dc74daa48a5c1270dce90a7a34b978f9f0eac43b5c3f00c7fcabe6b90ff80e880f73a4a7637066c1f5da3810fd46fb508f9e76cc3577111b6080ab2aede4f",
+          "sha256": "54befe6e773438a7371293dc9084508106d95548a8bee1326bf7b96732d630b8",
+          "sha1": "efa5520e84a9c4795b39984fa4fb38ac262e7e90",
+          "md5": "e00713829d3443ba07af49661827118d"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "prompt-model-kotlin-0.3.0.3-sources.jar",
+          "url": "prompt-model-0.3.0.3-sources.jar",
+          "size": 23155,
+          "sha512": "4fb60df4474fc8703f047ea4db25124816fa04b6d76e26f896b69518933837680e323e80244a6a6502861f90e1fe67db43827e0299aab733163645a5a523221a",
+          "sha256": "89c8cd95a871324e1479da14338271fb0a2988273b418ddb15fe98b3661371ad",
+          "sha1": "658cd777d8ce3b4aacc0f7f45f13ef1206e29bc2",
+          "md5": "018220825a68820ac0cd76ea2a88065f"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-model-js/0.3.0.3/prompt-model-js-0.3.0.3.module",
+        "group": "ai.koog",
+        "module": "prompt-model-js",
+        "version": "0.3.0.3"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-model-js/0.3.0.3/prompt-model-js-0.3.0.3.module",
+        "group": "ai.koog",
+        "module": "prompt-model-js",
+        "version": "0.3.0.3"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-model-js/0.3.0.3/prompt-model-js-0.3.0.3.module",
+        "group": "ai.koog",
+        "module": "prompt-model-js",
+        "version": "0.3.0.3"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../prompt-model-jvm/0.3.0.3/prompt-model-jvm-0.3.0.3.module",
+        "group": "ai.koog",
+        "module": "prompt-model-jvm",
+        "version": "0.3.0.3"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../prompt-model-jvm/0.3.0.3/prompt-model-jvm-0.3.0.3.module",
+        "group": "ai.koog",
+        "module": "prompt-model-jvm",
+        "version": "0.3.0.3"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../prompt-model-jvm/0.3.0.3/prompt-model-jvm-0.3.0.3.module",
+        "group": "ai.koog",
+        "module": "prompt-model-jvm",
+        "version": "0.3.0.3"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-model-wasm-js/0.3.0.3/prompt-model-wasm-js-0.3.0.3.module",
+        "group": "ai.koog",
+        "module": "prompt-model-wasm-js",
+        "version": "0.3.0.3"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-model-wasm-js/0.3.0.3/prompt-model-wasm-js-0.3.0.3.module",
+        "group": "ai.koog",
+        "module": "prompt-model-wasm-js",
+        "version": "0.3.0.3"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-model-wasm-js/0.3.0.3/prompt-model-wasm-js-0.3.0.3.module",
+        "group": "ai.koog",
+        "module": "prompt-model-wasm-js",
+        "version": "0.3.0.3"
+      }
+    }
+  ]
+}

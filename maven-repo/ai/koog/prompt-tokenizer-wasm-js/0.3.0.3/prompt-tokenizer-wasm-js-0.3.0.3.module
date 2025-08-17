@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../prompt-tokenizer/0.3.0.3/prompt-tokenizer-0.3.0.3.module",
+    "group": "ai.koog",
+    "module": "prompt-tokenizer",
+    "version": "0.3.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "prompt-llm",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-tokenizer-wasm-js-0.3.0.3.klib",
+          "url": "prompt-tokenizer-wasm-js-0.3.0.3.klib",
+          "size": 16955,
+          "sha512": "dbd5b6d1d6d913d75a23b48bb551113095e0727c96b32582c874903b8f95439418e6ddced98cc88d2aabdb115661a44235bed7b11449151287567113747dfe1d",
+          "sha256": "f7dafe13436a3a9dcbf8032cc70bc60da0452c27779f8d0e2e8e21139a178946",
+          "sha1": "4d29058a193f68e5a68fc61cbb01a968e5e202f0",
+          "md5": "c5c636c2c5591ccedfae3e7807f3ab03"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "prompt-llm",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-tokenizer-wasm-js-0.3.0.3.klib",
+          "url": "prompt-tokenizer-wasm-js-0.3.0.3.klib",
+          "size": 16955,
+          "sha512": "dbd5b6d1d6d913d75a23b48bb551113095e0727c96b32582c874903b8f95439418e6ddced98cc88d2aabdb115661a44235bed7b11449151287567113747dfe1d",
+          "sha256": "f7dafe13436a3a9dcbf8032cc70bc60da0452c27779f8d0e2e8e21139a178946",
+          "sha1": "4d29058a193f68e5a68fc61cbb01a968e5e202f0",
+          "md5": "c5c636c2c5591ccedfae3e7807f3ab03"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "prompt-tokenizer-wasm-js-0.3.0.3-sources.jar",
+          "url": "prompt-tokenizer-wasm-js-0.3.0.3-sources.jar",
+          "size": 5324,
+          "sha512": "9f20b03ab6292e425bc851b11683b9cc6ce0dddc3d6b6b4b042350ed5486fae56b2c116309542261cfa4869e16b5437b411d2d6b4318f65747484d3538ad780a",
+          "sha256": "2dc6d3700773b4af3f73e9246fdce6d96535ffeb1534ae1d7c0410fe314453bb",
+          "sha1": "4e09855b24b57f5baa052bb8ae81407de6f91891",
+          "md5": "f8a904bee7024e89c1166a9ba9c72e34"
+        }
+      ]
+    }
+  ]
+}

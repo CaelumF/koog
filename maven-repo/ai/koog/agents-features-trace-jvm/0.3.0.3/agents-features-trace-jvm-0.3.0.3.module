@@ -1,0 +1,214 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../agents-features-trace/0.3.0.3/agents-features-trace-0.3.0.3.module",
+    "group": "ai.koog",
+    "module": "agents-features-trace",
+    "version": "0.3.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-openai-client",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-cio",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-sse",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-features-trace-jvm-0.3.0.3.jar",
+          "url": "agents-features-trace-jvm-0.3.0.3.jar",
+          "size": 48900,
+          "sha512": "4d258bafc9d22ecab8fa1139425ac82cd1b5801d2d42d96c2f95db8a8302c2c10eff69a378a5d7c516b2d9737b338d3b6137e9b65fea3db4d4925560251e0081",
+          "sha256": "c7c7b86c548db495dd678ee22057921910fef15a869315db3039d95a89526247",
+          "sha1": "8bf20405598f24c16037e516f559caa0778efe7e",
+          "md5": "79141f19f0fc668ce7562bb5b570e3cc"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-openai-client",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-cio",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-sse",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-features-trace-jvm-0.3.0.3.jar",
+          "url": "agents-features-trace-jvm-0.3.0.3.jar",
+          "size": 48900,
+          "sha512": "4d258bafc9d22ecab8fa1139425ac82cd1b5801d2d42d96c2f95db8a8302c2c10eff69a378a5d7c516b2d9737b338d3b6137e9b65fea3db4d4925560251e0081",
+          "sha256": "c7c7b86c548db495dd678ee22057921910fef15a869315db3039d95a89526247",
+          "sha1": "8bf20405598f24c16037e516f559caa0778efe7e",
+          "md5": "79141f19f0fc668ce7562bb5b570e3cc"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "agents-features-trace-jvm-0.3.0.3-sources.jar",
+          "url": "agents-features-trace-jvm-0.3.0.3-sources.jar",
+          "size": 9836,
+          "sha512": "7b8b2889e49cb36ce538ddb0938f5321e6b2c4b4c9bb0998e83e1e9d297ac234d1e10718055bc25e0980576b09bf26c46a830b256a9235a40aefcd3dd57f72d7",
+          "sha256": "4bcb3eb91e7079a5bd9805c278e9e571972766456edfe917af4fc1fcf945d413",
+          "sha1": "c0869ced325f4ae9a728ea0b3e5398ebb0889a2c",
+          "md5": "d123321153ff3e45492743625eac70e8"
+        }
+      ]
+    }
+  ]
+}

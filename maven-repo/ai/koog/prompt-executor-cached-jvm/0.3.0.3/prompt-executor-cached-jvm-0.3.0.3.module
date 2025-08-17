@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../prompt-executor-cached/0.3.0.3/prompt-executor-cached-0.3.0.3.module",
+    "group": "ai.koog",
+    "module": "prompt-executor-cached",
+    "version": "0.3.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "prompt-cache-model",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-model",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-executor-cached-jvm-0.3.0.3.jar",
+          "url": "prompt-executor-cached-jvm-0.3.0.3.jar",
+          "size": 12360,
+          "sha512": "3afe4fa00bd442148882523b07e5a1f8fae02a25a96da7618a773ef314b746097b11e5cc9076d3d51cc25e1a1bb2489d59bce2b66f791dd9f988979f739de8db",
+          "sha256": "3c0721d697d9de2a352baa7ab0eb174c1a8d52eeecdd08ef719e52041e74900a",
+          "sha1": "c177db83ccfa5667a95c1a38b8f27e608a9cd3e6",
+          "md5": "f406121f984fde3c5f4ad38dc65ea7f1"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "prompt-cache-model",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-model",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-executor-cached-jvm-0.3.0.3.jar",
+          "url": "prompt-executor-cached-jvm-0.3.0.3.jar",
+          "size": 12360,
+          "sha512": "3afe4fa00bd442148882523b07e5a1f8fae02a25a96da7618a773ef314b746097b11e5cc9076d3d51cc25e1a1bb2489d59bce2b66f791dd9f988979f739de8db",
+          "sha256": "3c0721d697d9de2a352baa7ab0eb174c1a8d52eeecdd08ef719e52041e74900a",
+          "sha1": "c177db83ccfa5667a95c1a38b8f27e608a9cd3e6",
+          "md5": "f406121f984fde3c5f4ad38dc65ea7f1"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "prompt-executor-cached-jvm-0.3.0.3-sources.jar",
+          "url": "prompt-executor-cached-jvm-0.3.0.3-sources.jar",
+          "size": 2987,
+          "sha512": "83fb175f7c5495efd1d75b37fdad7e535cf4b6f811457abddcffd72acc454df23b2f7f5de2b86209a3bfaccf5728baf1024629be687ce09870323cc926c504c1",
+          "sha256": "2afedb0e077a9c559c6eefe9819c4c7479c1aaeb6728083a112a5d2eea90b035",
+          "sha1": "7e59a6e29654ab3bbe8e5d6655a036588c4ce23c",
+          "md5": "cdd8a853879b856cfdd0a954821f1362"
+        }
+      ]
+    }
+  ]
+}

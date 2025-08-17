@@ -1,0 +1,178 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.koog",
+    "module": "koog-spring-boot-starter",
+    "version": "0.3.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "koog-agents",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter"
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-kotlin"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-reactor"
+        },
+        {
+          "group": "io.projectreactor.kotlin",
+          "module": "reactor-kotlin-extensions"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koog-spring-boot-starter-0.3.0.3.jar",
+          "url": "koog-spring-boot-starter-0.3.0.3.jar",
+          "size": 8399,
+          "sha512": "a912d0d017500ce982f9d555f1a7c34a8c2aac0cc10fc08cec160bff096bdbaea9d1474cb346b689fb5108d4727a07046384bf0b30f954f4b777a801c45b4792",
+          "sha256": "ac8d9e6338ebaf0d03e212c6beb6aa1ccadfb5adce9986ef3e59dc1198856472",
+          "sha1": "dc68f795e38eceae0e0f88d95b7983c14403a3fa",
+          "md5": "2f59f9063bad34c99d8602b4504d7635"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-dependencies",
+          "version": {
+            "requires": "3.5.3"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "koog-agents",
+          "version": {
+            "requires": "0.3.0.3"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter"
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-kotlin"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-reactor"
+        },
+        {
+          "group": "io.projectreactor.kotlin",
+          "module": "reactor-kotlin-extensions"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koog-spring-boot-starter-0.3.0.3.jar",
+          "url": "koog-spring-boot-starter-0.3.0.3.jar",
+          "size": 8399,
+          "sha512": "a912d0d017500ce982f9d555f1a7c34a8c2aac0cc10fc08cec160bff096bdbaea9d1474cb346b689fb5108d4727a07046384bf0b30f954f4b777a801c45b4792",
+          "sha256": "ac8d9e6338ebaf0d03e212c6beb6aa1ccadfb5adce9986ef3e59dc1198856472",
+          "sha1": "dc68f795e38eceae0e0f88d95b7983c14403a3fa",
+          "md5": "2f59f9063bad34c99d8602b4504d7635"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "koog-spring-boot-starter-0.3.0.3-sources.jar",
+          "url": "koog-spring-boot-starter-0.3.0.3-sources.jar",
+          "size": 4294,
+          "sha512": "49ab7ace424dd527e1dc34102680034c8685126a10116e74217d4e53cd3a1b1e91436f085c82cee1f14473b965a549ac042e28769bc9914adb8fcc5d3754b9d6",
+          "sha256": "468a96fc90258aabcc0a40ada07c8d769cd2bb8867673cc70d20a9faa5a283dd",
+          "sha1": "dacfe19dcb5844d419256ff4bd0e376e1511e25a",
+          "md5": "c430af1c7278a8cb879880cd878551a2"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "koog-spring-boot-starter-0.3.0.3-javadoc.jar",
+          "url": "koog-spring-boot-starter-0.3.0.3-javadoc.jar",
+          "size": 261,
+          "sha512": "a45b95d7f369c5c1a8555e0b186c52404d7c33b9a83b3d27afeeff5b1c58c8294ca7af5945dca229c531dce61e4df09ca598412e2c300076da2f8fc3873ad948",
+          "sha256": "f73bbb7b2676e412d7dac2f86e786956eb064222e877494d4a6afa5031615043",
+          "sha1": "6f9579d0e79a33b680861b1a027984a926213dae",
+          "md5": "51b2245f9a1b37ef87176949a57fa3b2"
+        }
+      ]
+    }
+  ]
+}
