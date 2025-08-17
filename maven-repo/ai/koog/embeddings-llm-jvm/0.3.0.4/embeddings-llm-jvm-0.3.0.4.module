@@ -1,0 +1,200 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../embeddings-llm/0.3.0.4/embeddings-llm-0.3.0.4.module",
+    "group": "ai.koog",
+    "module": "embeddings-llm",
+    "version": "0.3.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "prompt-llm",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-clients",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "embeddings-base",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "embeddings-llm-jvm-0.3.0.4.jar",
+          "url": "embeddings-llm-jvm-0.3.0.4.jar",
+          "size": 4967,
+          "sha512": "b7f90941d5c4e922ae1c086139bd60d3dd73dffa4f8e9bde6d984cedb21d8136c72b7afaad1fd2b426cc5520bb2002613a5a585b79d7f1b0979134a5aa9d98b4",
+          "sha256": "f64f9d48c9db0b187f531e6521a0c3c908c32b25b18351299aca366d67a359a5",
+          "sha1": "666821ce4d8ff09280e0ce51f80f8b5bdbf46557",
+          "md5": "fda032475f62c11aae868a6cb10f14e0"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "prompt-llm",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-clients",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "embeddings-base",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "embeddings-llm-jvm-0.3.0.4.jar",
+          "url": "embeddings-llm-jvm-0.3.0.4.jar",
+          "size": 4967,
+          "sha512": "b7f90941d5c4e922ae1c086139bd60d3dd73dffa4f8e9bde6d984cedb21d8136c72b7afaad1fd2b426cc5520bb2002613a5a585b79d7f1b0979134a5aa9d98b4",
+          "sha256": "f64f9d48c9db0b187f531e6521a0c3c908c32b25b18351299aca366d67a359a5",
+          "sha1": "666821ce4d8ff09280e0ce51f80f8b5bdbf46557",
+          "md5": "fda032475f62c11aae868a6cb10f14e0"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "embeddings-llm-jvm-0.3.0.4-sources.jar",
+          "url": "embeddings-llm-jvm-0.3.0.4-sources.jar",
+          "size": 2783,
+          "sha512": "d99ad3b05573252e3e4f0e0df656bc1b324e242ad6eaabcb27269629adbd9380785a0bbd1749c38b6300001ee11ed6bbbe313ef2ce18aa48fbe13bca05d37061",
+          "sha256": "dc6b88c2d48470f108268f6247faf4abbcf61965e62d041183ea5c97c2102077",
+          "sha1": "9b2a1d13f4429ef8ff967a44fd7b02a38680aab5",
+          "md5": "3fb535fcc8f56099b1192018f2676884"
+        }
+      ]
+    }
+  ]
+}

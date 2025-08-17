@@ -1,0 +1,240 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.koog",
+    "module": "prompt-cache-model",
+    "version": "0.3.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-tools",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-model",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-cache-model-metadata-0.3.0.4.jar",
+          "url": "prompt-cache-model-0.3.0.4.jar",
+          "size": 4358,
+          "sha512": "3630d3d4f10df0867255e9056970fcf52cb4cdaec78022b04fd4819c13fd66dd6d85b53947a05ae31708bf235387f963bdd4d148f2ca5e90439b37bbd1ada6cd",
+          "sha256": "803e58ceb08eb7329ecb38e1b6c248cb3bd9c814558d34826a80ae81a02fac84",
+          "sha1": "324a2467aa5fe5a2fe600a15d5b2dc18d9551621",
+          "md5": "a6dcf38238eb1f50c532ab09e32c4952"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "prompt-cache-model-kotlin-0.3.0.4-sources.jar",
+          "url": "prompt-cache-model-0.3.0.4-sources.jar",
+          "size": 5387,
+          "sha512": "921ded8a17f300ee79282cb0c5208cbf7983bafb2ce29900e9275ae2cacc19a05cf2b0fd6e58754673a6d0438ec288f1ab7754943f452018e9bedbf12964e86a",
+          "sha256": "70ef07d5f664bd89cd2a358e2b7f721c939f4e414bef1a74825a90f9d6f215f7",
+          "sha1": "efa4b7ea08c4aff3efc74dc6249dcd0eb6d5e15a",
+          "md5": "4f1231cef25bed1632442ae8ddfa0e47"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-cache-model-js/0.3.0.4/prompt-cache-model-js-0.3.0.4.module",
+        "group": "ai.koog",
+        "module": "prompt-cache-model-js",
+        "version": "0.3.0.4"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-cache-model-js/0.3.0.4/prompt-cache-model-js-0.3.0.4.module",
+        "group": "ai.koog",
+        "module": "prompt-cache-model-js",
+        "version": "0.3.0.4"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-cache-model-js/0.3.0.4/prompt-cache-model-js-0.3.0.4.module",
+        "group": "ai.koog",
+        "module": "prompt-cache-model-js",
+        "version": "0.3.0.4"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../prompt-cache-model-jvm/0.3.0.4/prompt-cache-model-jvm-0.3.0.4.module",
+        "group": "ai.koog",
+        "module": "prompt-cache-model-jvm",
+        "version": "0.3.0.4"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../prompt-cache-model-jvm/0.3.0.4/prompt-cache-model-jvm-0.3.0.4.module",
+        "group": "ai.koog",
+        "module": "prompt-cache-model-jvm",
+        "version": "0.3.0.4"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../prompt-cache-model-jvm/0.3.0.4/prompt-cache-model-jvm-0.3.0.4.module",
+        "group": "ai.koog",
+        "module": "prompt-cache-model-jvm",
+        "version": "0.3.0.4"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-cache-model-wasm-js/0.3.0.4/prompt-cache-model-wasm-js-0.3.0.4.module",
+        "group": "ai.koog",
+        "module": "prompt-cache-model-wasm-js",
+        "version": "0.3.0.4"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-cache-model-wasm-js/0.3.0.4/prompt-cache-model-wasm-js-0.3.0.4.module",
+        "group": "ai.koog",
+        "module": "prompt-cache-model-wasm-js",
+        "version": "0.3.0.4"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-cache-model-wasm-js/0.3.0.4/prompt-cache-model-wasm-js-0.3.0.4.module",
+        "group": "ai.koog",
+        "module": "prompt-cache-model-wasm-js",
+        "version": "0.3.0.4"
+      }
+    }
+  ]
+}

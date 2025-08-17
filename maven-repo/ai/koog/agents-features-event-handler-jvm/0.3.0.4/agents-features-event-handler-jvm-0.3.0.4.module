@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../agents-features-event-handler/0.3.0.4/agents-features-event-handler-0.3.0.4.module",
+    "group": "ai.koog",
+    "module": "agents-features-event-handler",
+    "version": "0.3.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-features-event-handler-jvm-0.3.0.4.jar",
+          "url": "agents-features-event-handler-jvm-0.3.0.4.jar",
+          "size": 129784,
+          "sha512": "10d00380d891defb5b7444a25f052616bf117d4494384ad2be1f4265425f81889a37d01be8d618319d809ce79e1c65a9d65276c00f1a1ba61c317d15fc56dd5e",
+          "sha256": "e68d0e52dfa107fb710f5f0e5acce1b5ab9cdf70b63519657a8ff6588aa4a8a0",
+          "sha1": "0a9074af719f17b15e2318908c20b49560174cee",
+          "md5": "ec9ff49319187a54d8851cc15f092c49"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-features-event-handler-jvm-0.3.0.4.jar",
+          "url": "agents-features-event-handler-jvm-0.3.0.4.jar",
+          "size": 129784,
+          "sha512": "10d00380d891defb5b7444a25f052616bf117d4494384ad2be1f4265425f81889a37d01be8d618319d809ce79e1c65a9d65276c00f1a1ba61c317d15fc56dd5e",
+          "sha256": "e68d0e52dfa107fb710f5f0e5acce1b5ab9cdf70b63519657a8ff6588aa4a8a0",
+          "sha1": "0a9074af719f17b15e2318908c20b49560174cee",
+          "md5": "ec9ff49319187a54d8851cc15f092c49"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "agents-features-event-handler-jvm-0.3.0.4-sources.jar",
+          "url": "agents-features-event-handler-jvm-0.3.0.4-sources.jar",
+          "size": 8434,
+          "sha512": "a654b29e6be6b215cb6327190e03f05e0be7b6b2bb62a1bad29f1d5e6c7356b0d95e7bfddb893d6b03ec69bb18f4cd753e001a38ba93ec66ae740cc9aaab0763",
+          "sha256": "92a4655f88281d04dd0e3e2144029bda7e159da76dd07aa31da05d20a4bd28ec",
+          "sha1": "d6152389d166e92c27ca36db6361d24b0a51afed",
+          "md5": "e7e14b954f2355755d7d614722a7acfb"
+        }
+      ]
+    }
+  ]
+}

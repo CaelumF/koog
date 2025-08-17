@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../agents-features-event-handler/0.3.0.4/agents-features-event-handler-0.3.0.4.module",
+    "group": "ai.koog",
+    "module": "agents-features-event-handler",
+    "version": "0.3.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-features-event-handler-js-0.3.0.4.klib",
+          "url": "agents-features-event-handler-js-0.3.0.4.klib",
+          "size": 35874,
+          "sha512": "5d244f67b289c7e3f2ae532436eb6c83c7e84d3479226d002cd49c414611ac1ed60c84e19216a3fa7f931b0f19fdeaffa550c63555ba660ba61a14318d3db1af",
+          "sha256": "03fe7efe549225273bc7ac327933ffa99b1d452337b350a63f67dc713c47b3af",
+          "sha1": "ece3c6a3bd259200ff0bd22e02ba0c95cba9ebe4",
+          "md5": "6d2e3816f52771bb52f83caf7751857c"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-features-event-handler-js-0.3.0.4.klib",
+          "url": "agents-features-event-handler-js-0.3.0.4.klib",
+          "size": 35874,
+          "sha512": "5d244f67b289c7e3f2ae532436eb6c83c7e84d3479226d002cd49c414611ac1ed60c84e19216a3fa7f931b0f19fdeaffa550c63555ba660ba61a14318d3db1af",
+          "sha256": "03fe7efe549225273bc7ac327933ffa99b1d452337b350a63f67dc713c47b3af",
+          "sha1": "ece3c6a3bd259200ff0bd22e02ba0c95cba9ebe4",
+          "md5": "6d2e3816f52771bb52f83caf7751857c"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "agents-features-event-handler-js-0.3.0.4-sources.jar",
+          "url": "agents-features-event-handler-js-0.3.0.4-sources.jar",
+          "size": 8434,
+          "sha512": "a654b29e6be6b215cb6327190e03f05e0be7b6b2bb62a1bad29f1d5e6c7356b0d95e7bfddb893d6b03ec69bb18f4cd753e001a38ba93ec66ae740cc9aaab0763",
+          "sha256": "92a4655f88281d04dd0e3e2144029bda7e159da76dd07aa31da05d20a4bd28ec",
+          "sha1": "d6152389d166e92c27ca36db6361d24b0a51afed",
+          "md5": "e7e14b954f2355755d7d614722a7acfb"
+        }
+      ]
+    }
+  ]
+}

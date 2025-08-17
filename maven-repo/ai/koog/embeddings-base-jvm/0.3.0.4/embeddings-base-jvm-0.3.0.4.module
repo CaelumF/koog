@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../embeddings-base/0.3.0.4/embeddings-base-0.3.0.4.module",
+    "group": "ai.koog",
+    "module": "embeddings-base",
+    "version": "0.3.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "embeddings-base-jvm-0.3.0.4.jar",
+          "url": "embeddings-base-jvm-0.3.0.4.jar",
+          "size": 9722,
+          "sha512": "71479a5e1f57115f8cf6a9c0173cfd31ab172c78ecdb07f86f851a0ae4d959569f7ce8df27c0688e2ecb4c79ddf29c2744bfa4b3c08c4206df76349803f3a6b6",
+          "sha256": "eabaaa8094bf9148f0987de19bd698a832e2844e6c5da6ed59bd481079be9710",
+          "sha1": "60d78c81b0c684b1b73b2cab38eee0f9ba742bb5",
+          "md5": "256eb98e15acc19f13be0ac6129e9acb"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "embeddings-base-jvm-0.3.0.4.jar",
+          "url": "embeddings-base-jvm-0.3.0.4.jar",
+          "size": 9722,
+          "sha512": "71479a5e1f57115f8cf6a9c0173cfd31ab172c78ecdb07f86f851a0ae4d959569f7ce8df27c0688e2ecb4c79ddf29c2744bfa4b3c08c4206df76349803f3a6b6",
+          "sha256": "eabaaa8094bf9148f0987de19bd698a832e2844e6c5da6ed59bd481079be9710",
+          "sha1": "60d78c81b0c684b1b73b2cab38eee0f9ba742bb5",
+          "md5": "256eb98e15acc19f13be0ac6129e9acb"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "embeddings-base-jvm-0.3.0.4-sources.jar",
+          "url": "embeddings-base-jvm-0.3.0.4-sources.jar",
+          "size": 2866,
+          "sha512": "e81dfdb729687f3ad3e8fa95ff68071a2110bcc0cac9b1ccc7b540294c7b727b6a5a936d6a30ecaf2e00271cae521bc83fee28d3a603cd293aea42993299e10b",
+          "sha256": "fb733ac421cc959291dd802d0a4f62ea02d187d38b6ba657d53a3f4bc3c7199d",
+          "sha1": "2aec73c029fe70e9c2cbb65df91fc875ab28280e",
+          "md5": "a47ba90ec1994339e340b7926f4e5bef"
+        }
+      ]
+    }
+  ]
+}

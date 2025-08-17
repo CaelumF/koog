@@ -1,0 +1,200 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../agents-features-memory/0.3.0.4/agents-features-memory-0.3.0.4.module",
+    "group": "ai.koog",
+    "module": "agents-features-memory",
+    "version": "0.3.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-markdown",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "rag-base",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-features-memory-jvm-0.3.0.4.jar",
+          "url": "agents-features-memory-jvm-0.3.0.4.jar",
+          "size": 215249,
+          "sha512": "6a8202583d4e1c29ce7351f0c4666c3fb12ad98d281e9f22d7a3c37421d4e818e499f1a8769e3db3e2382629a99e35282b14cd8afc3bff67ae4edb1fa169c5e1",
+          "sha256": "4b185693e3a59121c40e46c83733b3025fd01ad4aa31d136b8e544eb9b2550ff",
+          "sha1": "d67cc048562cbb9dbc0e6550e5b1c1a869c82641",
+          "md5": "23910c4f6a60dbc455dc1f095a60ec10"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-markdown",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "rag-base",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-features-memory-jvm-0.3.0.4.jar",
+          "url": "agents-features-memory-jvm-0.3.0.4.jar",
+          "size": 215249,
+          "sha512": "6a8202583d4e1c29ce7351f0c4666c3fb12ad98d281e9f22d7a3c37421d4e818e499f1a8769e3db3e2382629a99e35282b14cd8afc3bff67ae4edb1fa169c5e1",
+          "sha256": "4b185693e3a59121c40e46c83733b3025fd01ad4aa31d136b8e544eb9b2550ff",
+          "sha1": "d67cc048562cbb9dbc0e6550e5b1c1a869c82641",
+          "md5": "23910c4f6a60dbc455dc1f095a60ec10"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "agents-features-memory-jvm-0.3.0.4-sources.jar",
+          "url": "agents-features-memory-jvm-0.3.0.4-sources.jar",
+          "size": 31295,
+          "sha512": "e0f6b7c4c7eb79401cfe06c31f8a07b0e4e568c1e3116c5caf741699b7563622eb22e940535e7169583760148848859e60f2bdc4c6bd8a6b9a74019fdb8c742a",
+          "sha256": "6bbddbdecb9cbcb196566232329ef716811a1427538304a9081f290653449a08",
+          "sha1": "8086fa63aafdbdd2275b30bd02006941d82cf8e0",
+          "md5": "4dc275a62440766e44112df3660d254d"
+        }
+      ]
+    }
+  ]
+}

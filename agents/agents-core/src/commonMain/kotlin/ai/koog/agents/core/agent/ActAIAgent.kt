@@ -49,9 +49,6 @@ public class ActAIAgent<Input, Output>(
     public val featureContext: FeatureContext.() -> Unit = {}
 ) : AIAgent<Input, Output> {
 
-    init {
-        FeatureContext(this).featureContext()
-    }
 
     private companion object {
         private val logger = KotlinLogging.logger {}
@@ -95,6 +92,9 @@ public class ActAIAgent<Input, Output>(
         configure: Config.() -> Unit
     ) {
         pipeline.install(feature, configure)
+    }
+    init {
+        FeatureContext(this).featureContext()
     }
 
     override suspend fun run(agentInput: Input): Output {

@@ -1,0 +1,282 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.koog",
+    "module": "prompt-executor-anthropic-client",
+    "version": "0.3.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-tools",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-utils",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-clients",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-llm",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-model",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-executor-anthropic-client-metadata-0.3.0.4.jar",
+          "url": "prompt-executor-anthropic-client-0.3.0.4.jar",
+          "size": 7228,
+          "sha512": "33709f47e97590f64584cababc2a9a21722ac56621f386b506735dc4204409245b75f8db2b04e5029220d7be8ad28f66f1e9668fd912713a75945b250ea09720",
+          "sha256": "0fa78bb715f342aa0d9058fe5f1dea84091244bfd4ccc53c7b71657d724c1b9f",
+          "sha1": "127cced04100762b182f46e5a15dbc79ca8019b5",
+          "md5": "d4a112f318dbf0fc5ed1974a1962a611"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "prompt-executor-anthropic-client-kotlin-0.3.0.4-sources.jar",
+          "url": "prompt-executor-anthropic-client-0.3.0.4-sources.jar",
+          "size": 12398,
+          "sha512": "63525d36536fbb788fa2deba57142cd227dbc6fe633001b65ac42cad3ca0285d61cfb5db55bb0609b4abb580b24e22974ba6fea1bc08c6f748abac26c857de61",
+          "sha256": "5fc9215714e4ffd086d6155ab84500298f78a37251e2435595a9a17e7d8a49ef",
+          "sha1": "2ca1afe1b8a336eca96147582c6f4957251d82b8",
+          "md5": "a02462cb6e35f7ab60e703c32725ed64"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-executor-anthropic-client-js/0.3.0.4/prompt-executor-anthropic-client-js-0.3.0.4.module",
+        "group": "ai.koog",
+        "module": "prompt-executor-anthropic-client-js",
+        "version": "0.3.0.4"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-executor-anthropic-client-js/0.3.0.4/prompt-executor-anthropic-client-js-0.3.0.4.module",
+        "group": "ai.koog",
+        "module": "prompt-executor-anthropic-client-js",
+        "version": "0.3.0.4"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-executor-anthropic-client-js/0.3.0.4/prompt-executor-anthropic-client-js-0.3.0.4.module",
+        "group": "ai.koog",
+        "module": "prompt-executor-anthropic-client-js",
+        "version": "0.3.0.4"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../prompt-executor-anthropic-client-jvm/0.3.0.4/prompt-executor-anthropic-client-jvm-0.3.0.4.module",
+        "group": "ai.koog",
+        "module": "prompt-executor-anthropic-client-jvm",
+        "version": "0.3.0.4"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../prompt-executor-anthropic-client-jvm/0.3.0.4/prompt-executor-anthropic-client-jvm-0.3.0.4.module",
+        "group": "ai.koog",
+        "module": "prompt-executor-anthropic-client-jvm",
+        "version": "0.3.0.4"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../prompt-executor-anthropic-client-jvm/0.3.0.4/prompt-executor-anthropic-client-jvm-0.3.0.4.module",
+        "group": "ai.koog",
+        "module": "prompt-executor-anthropic-client-jvm",
+        "version": "0.3.0.4"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-executor-anthropic-client-wasm-js/0.3.0.4/prompt-executor-anthropic-client-wasm-js-0.3.0.4.module",
+        "group": "ai.koog",
+        "module": "prompt-executor-anthropic-client-wasm-js",
+        "version": "0.3.0.4"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-executor-anthropic-client-wasm-js/0.3.0.4/prompt-executor-anthropic-client-wasm-js-0.3.0.4.module",
+        "group": "ai.koog",
+        "module": "prompt-executor-anthropic-client-wasm-js",
+        "version": "0.3.0.4"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../prompt-executor-anthropic-client-wasm-js/0.3.0.4/prompt-executor-anthropic-client-wasm-js-0.3.0.4.module",
+        "group": "ai.koog",
+        "module": "prompt-executor-anthropic-client-wasm-js",
+        "version": "0.3.0.4"
+      }
+    }
+  ]
+}

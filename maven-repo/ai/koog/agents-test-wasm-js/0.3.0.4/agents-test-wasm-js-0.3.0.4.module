@@ -1,0 +1,254 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../agents-test/0.3.0.4/agents-test-0.3.0.4.module",
+    "group": "ai.koog",
+    "module": "agents-test",
+    "version": "0.3.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-ext",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-openai-client",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-llms-all",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-tokenizer",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test"
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "26.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-test-wasm-js-0.3.0.4.klib",
+          "url": "agents-test-wasm-js-0.3.0.4.klib",
+          "size": 121172,
+          "sha512": "c97b55e243e10f767e48e915c057a8950ff1bf79b4a27a79ff60d9243e2635354ba88b70cdc500ff8caf997623202dfd8792c4387119ba4475a5083bdcd691dc",
+          "sha256": "8341dba77a5fd5ada9aff4284a9224fe42ed77af4852fae5b289a3896928ef05",
+          "sha1": "6c32416bfcd9691175eaafdef1ebb5929ecc704e",
+          "md5": "ee2f0957ddccc5d0ee2f95c742da20b2"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-ext",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-openai-client",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-llms-all",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-tokenizer",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test"
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "26.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.5.13"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.7"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-test-wasm-js-0.3.0.4.klib",
+          "url": "agents-test-wasm-js-0.3.0.4.klib",
+          "size": 121172,
+          "sha512": "c97b55e243e10f767e48e915c057a8950ff1bf79b4a27a79ff60d9243e2635354ba88b70cdc500ff8caf997623202dfd8792c4387119ba4475a5083bdcd691dc",
+          "sha256": "8341dba77a5fd5ada9aff4284a9224fe42ed77af4852fae5b289a3896928ef05",
+          "sha1": "6c32416bfcd9691175eaafdef1ebb5929ecc704e",
+          "md5": "ee2f0957ddccc5d0ee2f95c742da20b2"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "agents-test-wasm-js-0.3.0.4-sources.jar",
+          "url": "agents-test-wasm-js-0.3.0.4-sources.jar",
+          "size": 34436,
+          "sha512": "f37da862af4d39d3f7e4ebc60a8ce90e7a35162f472a4e338e6c014e7faac38201f253f12ed048de26322e1d34696525fb6f21c0dbab8382c9693a0629acbf87",
+          "sha256": "80296dc35349fb55bb35514324a2e70c7779a1eee86e42062cd20e1b75c7a66d",
+          "sha1": "635f47b02cfa78c97303355d2403de33ed350207",
+          "md5": "ee786d25e45d56873f3f2d1ec01b588d"
+        }
+      ]
+    }
+  ]
+}

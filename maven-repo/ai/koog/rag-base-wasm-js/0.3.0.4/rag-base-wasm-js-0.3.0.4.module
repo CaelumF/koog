@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../rag-base/0.3.0.4/rag-base-0.3.0.4.module",
+    "group": "ai.koog",
+    "module": "rag-base",
+    "version": "0.3.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rag-base-wasm-js-0.3.0.4.klib",
+          "url": "rag-base-wasm-js-0.3.0.4.klib",
+          "size": 62261,
+          "sha512": "a2a48e2ad3deaac62f658f4f36957830b428fcfc533bfe4bc0fc51b5dd08bdc3c995a8c505fdf9b8968bae2b1e7f50eda19b7a43c71f28f96d0fda7e67536937",
+          "sha256": "f978757c4c8f1f34f7ae0d7616ccfbeae80dd0693126a944d8f6d561bdb89a34",
+          "sha1": "c06ac03d51bc5f44fdc34cd01d7b7a212c4a2fcb",
+          "md5": "c4737d9719dd5b0344d42186095c7b38"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rag-base-wasm-js-0.3.0.4.klib",
+          "url": "rag-base-wasm-js-0.3.0.4.klib",
+          "size": 62261,
+          "sha512": "a2a48e2ad3deaac62f658f4f36957830b428fcfc533bfe4bc0fc51b5dd08bdc3c995a8c505fdf9b8968bae2b1e7f50eda19b7a43c71f28f96d0fda7e67536937",
+          "sha256": "f978757c4c8f1f34f7ae0d7616ccfbeae80dd0693126a944d8f6d561bdb89a34",
+          "sha1": "c06ac03d51bc5f44fdc34cd01d7b7a212c4a2fcb",
+          "md5": "c4737d9719dd5b0344d42186095c7b38"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "rag-base-wasm-js-0.3.0.4-sources.jar",
+          "url": "rag-base-wasm-js-0.3.0.4-sources.jar",
+          "size": 17585,
+          "sha512": "bd56de8af7061bf8ab7c9186b03d4d2a71a0687554f22fe3d2038147785d76d1a792ff8a066b86abb9a5b1afb058c6d96496252d0ae81d63e4d6d41a118a17c2",
+          "sha256": "69533d8d5e6c0e08c81fcf8e7d84a21177aad3e7d40c66de3335419fdfe3d656",
+          "sha1": "482e17c8bb8042c664a7bc5b153ae06a63ac9b16",
+          "md5": "d092141bacf38f14ebf5349d68860d89"
+        }
+      ]
+    }
+  ]
+}

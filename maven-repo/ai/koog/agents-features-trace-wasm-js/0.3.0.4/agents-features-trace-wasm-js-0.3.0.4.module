@@ -1,0 +1,172 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../agents-features-trace/0.3.0.4/agents-features-trace-0.3.0.4.module",
+    "group": "ai.koog",
+    "module": "agents-features-trace",
+    "version": "0.3.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-sse",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-features-trace-wasm-js-0.3.0.4.klib",
+          "url": "agents-features-trace-wasm-js-0.3.0.4.klib",
+          "size": 32895,
+          "sha512": "fbc9e2cf507ecc86c284f4b84977805ed1b88cc5cc5ed4192bb7df6daf9459a0ffa09491edbcacb13c9a919587e98411af173d45b312d7d7c331b162a8ce14c8",
+          "sha256": "f068e4473fe49b8541d3dc10972374bdbc3d95d763583c80b68af535195264c0",
+          "sha1": "1b176bfb6315d7584d06d273d01b64a4cec7f9ff",
+          "md5": "ec5b8565afff9b9e8c80116030a177d2"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-sse",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-features-trace-wasm-js-0.3.0.4.klib",
+          "url": "agents-features-trace-wasm-js-0.3.0.4.klib",
+          "size": 32895,
+          "sha512": "fbc9e2cf507ecc86c284f4b84977805ed1b88cc5cc5ed4192bb7df6daf9459a0ffa09491edbcacb13c9a919587e98411af173d45b312d7d7c331b162a8ce14c8",
+          "sha256": "f068e4473fe49b8541d3dc10972374bdbc3d95d763583c80b68af535195264c0",
+          "sha1": "1b176bfb6315d7584d06d273d01b64a4cec7f9ff",
+          "md5": "ec5b8565afff9b9e8c80116030a177d2"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "agents-features-trace-wasm-js-0.3.0.4-sources.jar",
+          "url": "agents-features-trace-wasm-js-0.3.0.4-sources.jar",
+          "size": 9836,
+          "sha512": "7b8b2889e49cb36ce538ddb0938f5321e6b2c4b4c9bb0998e83e1e9d297ac234d1e10718055bc25e0980576b09bf26c46a830b256a9235a40aefcd3dd57f72d7",
+          "sha256": "4bcb3eb91e7079a5bd9805c278e9e571972766456edfe917af4fc1fcf945d413",
+          "sha1": "c0869ced325f4ae9a728ea0b3e5398ebb0889a2c",
+          "md5": "d123321153ff3e45492743625eac70e8"
+        }
+      ]
+    }
+  ]
+}

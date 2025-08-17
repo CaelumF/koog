@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../prompt-tokenizer/0.3.0.4/prompt-tokenizer-0.3.0.4.module",
+    "group": "ai.koog",
+    "module": "prompt-tokenizer",
+    "version": "0.3.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "prompt-llm",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-tokenizer-jvm-0.3.0.4.jar",
+          "url": "prompt-tokenizer-jvm-0.3.0.4.jar",
+          "size": 12351,
+          "sha512": "6dca54d34172fffee91f02c2d91e80e7e604cda7e16f982adddf32edf178454f7bde3559244a231a49894ea113abfe7e5d4dff1244cc6797fb6f60db60a816fc",
+          "sha256": "0fdfc0a2f2607c79259e21b84402d7483f348139e5974dd7db36bb82f3e85c47",
+          "sha1": "f5e5c0d0a87501ad99343b56a4b1b19d8bd20a3d",
+          "md5": "28b752998e715ae2d9195f60f839232b"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "prompt-llm",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-tokenizer-jvm-0.3.0.4.jar",
+          "url": "prompt-tokenizer-jvm-0.3.0.4.jar",
+          "size": 12351,
+          "sha512": "6dca54d34172fffee91f02c2d91e80e7e604cda7e16f982adddf32edf178454f7bde3559244a231a49894ea113abfe7e5d4dff1244cc6797fb6f60db60a816fc",
+          "sha256": "0fdfc0a2f2607c79259e21b84402d7483f348139e5974dd7db36bb82f3e85c47",
+          "sha1": "f5e5c0d0a87501ad99343b56a4b1b19d8bd20a3d",
+          "md5": "28b752998e715ae2d9195f60f839232b"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "prompt-tokenizer-jvm-0.3.0.4-sources.jar",
+          "url": "prompt-tokenizer-jvm-0.3.0.4-sources.jar",
+          "size": 5324,
+          "sha512": "9f20b03ab6292e425bc851b11683b9cc6ce0dddc3d6b6b4b042350ed5486fae56b2c116309542261cfa4869e16b5437b411d2d6b4318f65747484d3538ad780a",
+          "sha256": "2dc6d3700773b4af3f73e9246fdce6d96535ffeb1534ae1d7c0410fe314453bb",
+          "sha1": "4e09855b24b57f5baa052bb8ae81407de6f91891",
+          "md5": "f8a904bee7024e89c1166a9ba9c72e34"
+        }
+      ]
+    }
+  ]
+}

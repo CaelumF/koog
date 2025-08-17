@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../rag-base/0.3.0.4/rag-base-0.3.0.4.module",
+    "group": "ai.koog",
+    "module": "rag-base",
+    "version": "0.3.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rag-base-jvm-0.3.0.4.jar",
+          "url": "rag-base-jvm-0.3.0.4.jar",
+          "size": 157444,
+          "sha512": "4262e1b80a117cec25acfcc29195f3b4f70ecc86d7671a86c5feb9ba6ffb0bc4aec00d8574447a60f4b075bfd27c76ce66f1ce61b7ceaa2057b93a76ae742af9",
+          "sha256": "fffd05be2b7986257d9affed7f5bd25675bc2fc12543b5ea9a33fb32f53267c4",
+          "sha1": "4898e9cd50385468823fd6b8c9b5ea73bebfb4ce",
+          "md5": "69fe29e9a8f3eb0b94c39d5bf1ae39f8"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rag-base-jvm-0.3.0.4.jar",
+          "url": "rag-base-jvm-0.3.0.4.jar",
+          "size": 157444,
+          "sha512": "4262e1b80a117cec25acfcc29195f3b4f70ecc86d7671a86c5feb9ba6ffb0bc4aec00d8574447a60f4b075bfd27c76ce66f1ce61b7ceaa2057b93a76ae742af9",
+          "sha256": "fffd05be2b7986257d9affed7f5bd25675bc2fc12543b5ea9a33fb32f53267c4",
+          "sha1": "4898e9cd50385468823fd6b8c9b5ea73bebfb4ce",
+          "md5": "69fe29e9a8f3eb0b94c39d5bf1ae39f8"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "rag-base-jvm-0.3.0.4-sources.jar",
+          "url": "rag-base-jvm-0.3.0.4-sources.jar",
+          "size": 24985,
+          "sha512": "7679b841ae8c6f1a135225a11f557ccf9b0e6b5c5ed2efbf2e985dc24eed805585e11d14ba16e3fd0f9b1c7d9b5a8a6ae710cabefe77841acc1574ce5e38ed61",
+          "sha256": "a679b8ca7924d6ad80dc51bd14200bf4a4e1f333ef56ef8dcad4ef7f3369a055",
+          "sha1": "03b2c803b36179ce93c37e9ca98e6ff71b219ea4",
+          "md5": "e25fef9e71c9a6d3215bbc163378fc0c"
+        }
+      ]
+    }
+  ]
+}

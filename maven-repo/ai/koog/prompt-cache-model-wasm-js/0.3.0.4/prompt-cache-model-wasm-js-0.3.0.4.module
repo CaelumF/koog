@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../prompt-cache-model/0.3.0.4/prompt-cache-model-0.3.0.4.module",
+    "group": "ai.koog",
+    "module": "prompt-cache-model",
+    "version": "0.3.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-tools",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-model",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-cache-model-wasm-js-0.3.0.4.klib",
+          "url": "prompt-cache-model-wasm-js-0.3.0.4.klib",
+          "size": 26074,
+          "sha512": "e2fea5264066aa58d007b4d55d041be016f5973ab8479dab8daee1a5215cb8a4fcbb8c586cfe730afaea4d2039c3575d5a29dc2d10c6d2df4eaeafab02c500e4",
+          "sha256": "c811d8a37266e5be79fa073316555697955afcf2eb68ad4b4d93a048925edf93",
+          "sha1": "488fdfb657d9494c2184417cea3308fa395bb7ea",
+          "md5": "3181d264dd77d2be9ea5b853f9f7d472"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-tools",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-model",
+          "version": {
+            "requires": "0.3.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-cache-model-wasm-js-0.3.0.4.klib",
+          "url": "prompt-cache-model-wasm-js-0.3.0.4.klib",
+          "size": 26074,
+          "sha512": "e2fea5264066aa58d007b4d55d041be016f5973ab8479dab8daee1a5215cb8a4fcbb8c586cfe730afaea4d2039c3575d5a29dc2d10c6d2df4eaeafab02c500e4",
+          "sha256": "c811d8a37266e5be79fa073316555697955afcf2eb68ad4b4d93a048925edf93",
+          "sha1": "488fdfb657d9494c2184417cea3308fa395bb7ea",
+          "md5": "3181d264dd77d2be9ea5b853f9f7d472"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "prompt-cache-model-wasm-js-0.3.0.4-sources.jar",
+          "url": "prompt-cache-model-wasm-js-0.3.0.4-sources.jar",
+          "size": 5387,
+          "sha512": "921ded8a17f300ee79282cb0c5208cbf7983bafb2ce29900e9275ae2cacc19a05cf2b0fd6e58754673a6d0438ec288f1ab7754943f452018e9bedbf12964e86a",
+          "sha256": "70ef07d5f664bd89cd2a358e2b7f721c939f4e414bef1a74825a90f9d6f215f7",
+          "sha1": "efa4b7ea08c4aff3efc74dc6249dcd0eb6d5e15a",
+          "md5": "4f1231cef25bed1632442ae8ddfa0e47"
+        }
+      ]
+    }
+  ]
+}

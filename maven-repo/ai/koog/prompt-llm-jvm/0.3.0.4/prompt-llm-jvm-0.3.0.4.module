@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../prompt-llm/0.3.0.4/prompt-llm-0.3.0.4.module",
+    "group": "ai.koog",
+    "module": "prompt-llm",
+    "version": "0.3.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-llm-jvm-0.3.0.4.jar",
+          "url": "prompt-llm-jvm-0.3.0.4.jar",
+          "size": 68069,
+          "sha512": "47482ba61c8b608eb49e0a7bb0bab583fbb2ca36f2fd1ee75f796b6a43d8aed5ae653d3d6cba8a3ea80c5e1d8dbf3d10e8421a5e599714d79147eaa1b7223ae2",
+          "sha256": "1b093a1825d71ad758f321f5f56214c8a6ad93d043d4fc86b43405ce5872c311",
+          "sha1": "ba97a9d8329fd0d26a0d8217a688aae2f22d93d7",
+          "md5": "4e519fae913dbe8bf89f5cf27dd14bd0"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-llm-jvm-0.3.0.4.jar",
+          "url": "prompt-llm-jvm-0.3.0.4.jar",
+          "size": 68069,
+          "sha512": "47482ba61c8b608eb49e0a7bb0bab583fbb2ca36f2fd1ee75f796b6a43d8aed5ae653d3d6cba8a3ea80c5e1d8dbf3d10e8421a5e599714d79147eaa1b7223ae2",
+          "sha256": "1b093a1825d71ad758f321f5f56214c8a6ad93d043d4fc86b43405ce5872c311",
+          "sha1": "ba97a9d8329fd0d26a0d8217a688aae2f22d93d7",
+          "md5": "4e519fae913dbe8bf89f5cf27dd14bd0"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "prompt-llm-jvm-0.3.0.4-sources.jar",
+          "url": "prompt-llm-jvm-0.3.0.4-sources.jar",
+          "size": 7949,
+          "sha512": "95b7ed253fb29721ddcd8d9a17792358fbf450ca9f2c0a57f7631e2f70bd68bd7213f6f2cdaabedea05a003bed32773c6b42e859b058cdfb5fc94f1609f35b9d",
+          "sha256": "342e888aa7c5a5f0390ea59bcd8766053e8e041c297bb485adc9318c6d9cebd4",
+          "sha1": "e33009c5bec30b7904c11964aae41de29ae291ab",
+          "md5": "a6b582c3713406a2053a0079f19d4fd1"
+        }
+      ]
+    }
+  ]
+}
