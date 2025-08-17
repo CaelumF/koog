@@ -13,7 +13,7 @@ group = "ai.koog"
 version = run {
     // our version follows the semver specification
 
-    val main = "0.3.0"
+    val main = "0.3.0.1"
 
     val feat = run {
         val releaseBuild = !System.getenv("BRANCH_KOOG_IS_RELEASING_FROM").isNullOrBlank()
@@ -71,7 +71,21 @@ plugins {
 allprojects {
     repositories {
         mavenCentral()
+        /**
+        repositories {
+         *     repositories {
+         *         maven {
+         *             url "file:${rootDir}/maven-repo" //Mavenリポジトリを作る場所の指定
+         *
+         *         }
+         *     }
+         */
+        maven {
+            url = uri("${rootProject.projectDir}/maven-repo")
+            name = "Local Maven Repo"
+        }
     }
+
 }
 
 disableDistTasks()

@@ -1,0 +1,172 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../vector-storage/0.3.0.1/vector-storage-0.3.0.1.module",
+    "group": "ai.koog",
+    "module": "vector-storage",
+    "version": "0.3.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "rag-base",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "embeddings-base",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vector-storage-js-0.3.0.1.klib",
+          "url": "vector-storage-js-0.3.0.1.klib",
+          "size": 22817,
+          "sha512": "6e3a15e34a06fe7d4474ff50fca48579aaed5d79991d10f547ba3316c6cc549469126ef40e5f84f31574c242de51b7c3ea55f4dfc3a3602e4196117a6c513029",
+          "sha256": "91a70d2fbfd51aab79e692f40bd3afc4619ae92d20942b7690ec698c4bb51d8d",
+          "sha1": "76ce7fce11aa87d002eb46fc339dd9009df221be",
+          "md5": "42aa2684fd657fabc3af7138ebc20845"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "rag-base",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "embeddings-base",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vector-storage-js-0.3.0.1.klib",
+          "url": "vector-storage-js-0.3.0.1.klib",
+          "size": 22817,
+          "sha512": "6e3a15e34a06fe7d4474ff50fca48579aaed5d79991d10f547ba3316c6cc549469126ef40e5f84f31574c242de51b7c3ea55f4dfc3a3602e4196117a6c513029",
+          "sha256": "91a70d2fbfd51aab79e692f40bd3afc4619ae92d20942b7690ec698c4bb51d8d",
+          "sha1": "76ce7fce11aa87d002eb46fc339dd9009df221be",
+          "md5": "42aa2684fd657fabc3af7138ebc20845"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "vector-storage-js-0.3.0.1-sources.jar",
+          "url": "vector-storage-js-0.3.0.1-sources.jar",
+          "size": 7072,
+          "sha512": "1b28750be2afefc93e809c213033148788137c74ef0784bc0b03612d6e099e60d1a58b9bf9516fbfad2c0a2fe89896b893340bcbf259ea8e69f24c35fc0e0395",
+          "sha256": "843db04f564a52c041a1f994b116d092da20adea251fd0f4f5e3d9c579efc180",
+          "sha1": "6dfdb9ea71a91879c8e8a8f80e8910607f3ca0ed",
+          "md5": "4b4f8219b256e8c804e0a2e2ba953695"
+        }
+      ]
+    }
+  ]
+}

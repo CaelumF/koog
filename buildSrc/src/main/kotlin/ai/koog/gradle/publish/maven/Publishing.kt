@@ -11,7 +11,7 @@ import java.net.URL
 object Publishing {
     fun Project.publishToMaven() {
         publishTo({
-            it.graziePublic(project)
+//            it.graziePublic(project)
             it.artifactsMaven(project)
         }) {
             it.publications(
@@ -92,6 +92,7 @@ object Publishing {
                 val repo = this
 
                 repo.name = "artifacts"
+                // Copy to upper maven-repo directory to publish artifacts
                 repo.url = project.rootProject.layout.buildDirectory.dir("artifacts/maven").get().asFile.toURI()
             }
         )

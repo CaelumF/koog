@@ -1,0 +1,179 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../prompt-structure/0.3.0.1/prompt-structure-0.3.0.1.module",
+    "group": "ai.koog",
+    "module": "prompt-structure",
+    "version": "0.3.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-model",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-markdown",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-structure-js-0.3.0.1.klib",
+          "url": "prompt-structure-js-0.3.0.1.klib",
+          "size": 89149,
+          "sha512": "5c0703840615f642ea13349e8909d90d6ba9434eda31b4734e7b6f7603ea758f48e4aaf5b5be270f927ded5de044617a4f0e7ab69046afece306569ddd352e47",
+          "sha256": "644ff582130288325a0a438498300d3742bf7bb4043ab40049526526a1d382e1",
+          "sha1": "d6333e1251f3aafaf8de83cf8457527612943b20",
+          "md5": "a5807289ade764625a7878c0e3956bab"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-model",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-markdown",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-structure-js-0.3.0.1.klib",
+          "url": "prompt-structure-js-0.3.0.1.klib",
+          "size": 89149,
+          "sha512": "5c0703840615f642ea13349e8909d90d6ba9434eda31b4734e7b6f7603ea758f48e4aaf5b5be270f927ded5de044617a4f0e7ab69046afece306569ddd352e47",
+          "sha256": "644ff582130288325a0a438498300d3742bf7bb4043ab40049526526a1d382e1",
+          "sha1": "d6333e1251f3aafaf8de83cf8457527612943b20",
+          "md5": "a5807289ade764625a7878c0e3956bab"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "prompt-structure-js-0.3.0.1-sources.jar",
+          "url": "prompt-structure-js-0.3.0.1-sources.jar",
+          "size": 27083,
+          "sha512": "5250c66d20748c0b806880f3bcadd10974d9fce61b8170c456beb544c28b4c99d625e52e20cf528ee112d777c668ef9b927cf9b287681b93b34c8de1da6d1545",
+          "sha256": "ea31e982ba60a38f96019e99d6f2a722a314af16a605d1f4bc51761110633d6a",
+          "sha1": "aa01e369cc1be7f8d1ddf432020ec37b319b1e48",
+          "md5": "ac7eebd2009db0043d906d30f7ddfc99"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.koog",
+    "module": "vector-storage",
+    "version": "0.3.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "rag-base",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "embeddings-base",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vector-storage-metadata-0.3.0.1.jar",
+          "url": "vector-storage-0.3.0.1.jar",
+          "size": 4966,
+          "sha512": "b69bb63bbf472cb942758f84b71a70ecb20c7b6b305048d31597c3ab16bc54a0f2b3089eb5f29ee23877022ab2f524c52f9ebf12070687e70d73f6f8f9474867",
+          "sha256": "1dde7cab8bc084be3c0ebf1b961e8e79ed7eda158472b264da1930d00c0e4e71",
+          "sha1": "b953ca9a6adf536523a8a71f8b795beb0f2711ca",
+          "md5": "57b19dadf6881e628e87b822822fa0af"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "vector-storage-kotlin-0.3.0.1-sources.jar",
+          "url": "vector-storage-0.3.0.1-sources.jar",
+          "size": 7072,
+          "sha512": "1b28750be2afefc93e809c213033148788137c74ef0784bc0b03612d6e099e60d1a58b9bf9516fbfad2c0a2fe89896b893340bcbf259ea8e69f24c35fc0e0395",
+          "sha256": "843db04f564a52c041a1f994b116d092da20adea251fd0f4f5e3d9c579efc180",
+          "sha1": "6dfdb9ea71a91879c8e8a8f80e8910607f3ca0ed",
+          "md5": "4b4f8219b256e8c804e0a2e2ba953695"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../vector-storage-js/0.3.0.1/vector-storage-js-0.3.0.1.module",
+        "group": "ai.koog",
+        "module": "vector-storage-js",
+        "version": "0.3.0.1"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../vector-storage-js/0.3.0.1/vector-storage-js-0.3.0.1.module",
+        "group": "ai.koog",
+        "module": "vector-storage-js",
+        "version": "0.3.0.1"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../vector-storage-js/0.3.0.1/vector-storage-js-0.3.0.1.module",
+        "group": "ai.koog",
+        "module": "vector-storage-js",
+        "version": "0.3.0.1"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../vector-storage-jvm/0.3.0.1/vector-storage-jvm-0.3.0.1.module",
+        "group": "ai.koog",
+        "module": "vector-storage-jvm",
+        "version": "0.3.0.1"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../vector-storage-jvm/0.3.0.1/vector-storage-jvm-0.3.0.1.module",
+        "group": "ai.koog",
+        "module": "vector-storage-jvm",
+        "version": "0.3.0.1"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../vector-storage-jvm/0.3.0.1/vector-storage-jvm-0.3.0.1.module",
+        "group": "ai.koog",
+        "module": "vector-storage-jvm",
+        "version": "0.3.0.1"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../vector-storage-wasm-js/0.3.0.1/vector-storage-wasm-js-0.3.0.1.module",
+        "group": "ai.koog",
+        "module": "vector-storage-wasm-js",
+        "version": "0.3.0.1"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../vector-storage-wasm-js/0.3.0.1/vector-storage-wasm-js-0.3.0.1.module",
+        "group": "ai.koog",
+        "module": "vector-storage-wasm-js",
+        "version": "0.3.0.1"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../vector-storage-wasm-js/0.3.0.1/vector-storage-wasm-js-0.3.0.1.module",
+        "group": "ai.koog",
+        "module": "vector-storage-wasm-js",
+        "version": "0.3.0.1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.koog",
+    "module": "agents-ext",
+    "version": "0.3.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-tools",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-utils",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-ext-metadata-0.3.0.1.jar",
+          "url": "agents-ext-0.3.0.1.jar",
+          "size": 10982,
+          "sha512": "707543e81ee51e4303c1fce6e25a466dcc2aa12e03dc12fe612e8d4942c0d58f0199c6c836db79bc34d34cf7916553937039550dc8b35ad48fe49dceaaac07be",
+          "sha256": "e3e6762bac9a412e1fa47af0df347f169e1659327338922a12182498c93423d7",
+          "sha1": "c9e1e394ba3137bbd7663b7fda61976f511fcd35",
+          "md5": "c21ea0c1af2eb8c5bce5770463c723c2"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "agents-ext-kotlin-0.3.0.1-sources.jar",
+          "url": "agents-ext-0.3.0.1-sources.jar",
+          "size": 15660,
+          "sha512": "d595d7273d7f55ffae4f6431b05057446610ef1cd669bf6df2207b6c135cd1e8def4450f90b71c8348c274614a914f787579848de16192cfc28ed81c879f1c38",
+          "sha256": "022362051cc88c5d1d4303b9ff0601c3d8078c6222d0266e6c3080527246bdd3",
+          "sha1": "d8614bf76dc191e67761ac9b0213f066d9b80460",
+          "md5": "6cd796ed1435b716c8251eac651905a3"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../agents-ext-js/0.3.0.1/agents-ext-js-0.3.0.1.module",
+        "group": "ai.koog",
+        "module": "agents-ext-js",
+        "version": "0.3.0.1"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../agents-ext-js/0.3.0.1/agents-ext-js-0.3.0.1.module",
+        "group": "ai.koog",
+        "module": "agents-ext-js",
+        "version": "0.3.0.1"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../agents-ext-js/0.3.0.1/agents-ext-js-0.3.0.1.module",
+        "group": "ai.koog",
+        "module": "agents-ext-js",
+        "version": "0.3.0.1"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../agents-ext-jvm/0.3.0.1/agents-ext-jvm-0.3.0.1.module",
+        "group": "ai.koog",
+        "module": "agents-ext-jvm",
+        "version": "0.3.0.1"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../agents-ext-jvm/0.3.0.1/agents-ext-jvm-0.3.0.1.module",
+        "group": "ai.koog",
+        "module": "agents-ext-jvm",
+        "version": "0.3.0.1"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../agents-ext-jvm/0.3.0.1/agents-ext-jvm-0.3.0.1.module",
+        "group": "ai.koog",
+        "module": "agents-ext-jvm",
+        "version": "0.3.0.1"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../agents-ext-wasm-js/0.3.0.1/agents-ext-wasm-js-0.3.0.1.module",
+        "group": "ai.koog",
+        "module": "agents-ext-wasm-js",
+        "version": "0.3.0.1"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../agents-ext-wasm-js/0.3.0.1/agents-ext-wasm-js-0.3.0.1.module",
+        "group": "ai.koog",
+        "module": "agents-ext-wasm-js",
+        "version": "0.3.0.1"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../agents-ext-wasm-js/0.3.0.1/agents-ext-wasm-js-0.3.0.1.module",
+        "group": "ai.koog",
+        "module": "agents-ext-wasm-js",
+        "version": "0.3.0.1"
+      }
+    }
+  ]
+}

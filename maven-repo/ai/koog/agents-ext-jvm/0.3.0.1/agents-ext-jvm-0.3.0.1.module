@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../agents-ext/0.3.0.1/agents-ext-0.3.0.1.module",
+    "group": "ai.koog",
+    "module": "agents-ext",
+    "version": "0.3.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-tools",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-utils",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-ext-jvm-0.3.0.1.jar",
+          "url": "agents-ext-jvm-0.3.0.1.jar",
+          "size": 214027,
+          "sha512": "66dd9b9033ea99509f4658e19b60360eabd8e00e06db85d249543ec21c8fbf2e4cb2a56d9ce382775c5c03f08989e63173e6826b9503082298117909bf1ab0b7",
+          "sha256": "142e894910a79d426ce57cb82a38a70e50c84c92715d5890bad0a0a065677831",
+          "sha1": "f92c1bb02f59fdeeeccdc7b3ef3481a7fa0481bb",
+          "md5": "873ec1c75f1771c608e71d0d9d5dc01a"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-core",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-tools",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "agents-utils",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "agents-ext-jvm-0.3.0.1.jar",
+          "url": "agents-ext-jvm-0.3.0.1.jar",
+          "size": 214027,
+          "sha512": "66dd9b9033ea99509f4658e19b60360eabd8e00e06db85d249543ec21c8fbf2e4cb2a56d9ce382775c5c03f08989e63173e6826b9503082298117909bf1ab0b7",
+          "sha256": "142e894910a79d426ce57cb82a38a70e50c84c92715d5890bad0a0a065677831",
+          "sha1": "f92c1bb02f59fdeeeccdc7b3ef3481a7fa0481bb",
+          "md5": "873ec1c75f1771c608e71d0d9d5dc01a"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "agents-ext-jvm-0.3.0.1-sources.jar",
+          "url": "agents-ext-jvm-0.3.0.1-sources.jar",
+          "size": 15660,
+          "sha512": "d595d7273d7f55ffae4f6431b05057446610ef1cd669bf6df2207b6c135cd1e8def4450f90b71c8348c274614a914f787579848de16192cfc28ed81c879f1c38",
+          "sha256": "022362051cc88c5d1d4303b9ff0601c3d8078c6222d0266e6c3080527246bdd3",
+          "sha1": "d8614bf76dc191e67761ac9b0213f066d9b80460",
+          "md5": "6cd796ed1435b716c8251eac651905a3"
+        }
+      ]
+    }
+  ]
+}

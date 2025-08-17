@@ -1,0 +1,172 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../prompt-executor-cached/0.3.0.1/prompt-executor-cached-0.3.0.1.module",
+    "group": "ai.koog",
+    "module": "prompt-executor-cached",
+    "version": "0.3.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-cache-model",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-model",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-executor-cached-js-0.3.0.1.klib",
+          "url": "prompt-executor-cached-js-0.3.0.1.klib",
+          "size": 12678,
+          "sha512": "db647bd3463b4752ada13f3771a9fc9bbf65eba9db616580a783c418fb6eb17963d091e2825038067b74c8d7d95650586730525e44ae64eefce89db67a9a89e2",
+          "sha256": "501b2673f3fd24eac32f8256c18974b8a3f4bc0a26ba2bf29ba0eb29fc51137e",
+          "sha1": "49c7a9ff9fd88bde15f788c6b82a53d9153bdf81",
+          "md5": "6612dbfe827b9302bf90ade2fdb11bde"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-cache-model",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-executor-model",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-executor-cached-js-0.3.0.1.klib",
+          "url": "prompt-executor-cached-js-0.3.0.1.klib",
+          "size": 12678,
+          "sha512": "db647bd3463b4752ada13f3771a9fc9bbf65eba9db616580a783c418fb6eb17963d091e2825038067b74c8d7d95650586730525e44ae64eefce89db67a9a89e2",
+          "sha256": "501b2673f3fd24eac32f8256c18974b8a3f4bc0a26ba2bf29ba0eb29fc51137e",
+          "sha1": "49c7a9ff9fd88bde15f788c6b82a53d9153bdf81",
+          "md5": "6612dbfe827b9302bf90ade2fdb11bde"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "prompt-executor-cached-js-0.3.0.1-sources.jar",
+          "url": "prompt-executor-cached-js-0.3.0.1-sources.jar",
+          "size": 2987,
+          "sha512": "83fb175f7c5495efd1d75b37fdad7e535cf4b6f811457abddcffd72acc454df23b2f7f5de2b86209a3bfaccf5728baf1024629be687ce09870323cc926c504c1",
+          "sha256": "2afedb0e077a9c559c6eefe9819c4c7479c1aaeb6728083a112a5d2eea90b035",
+          "sha1": "7e59a6e29654ab3bbe8e5d6655a036588c4ce23c",
+          "md5": "cdd8a853879b856cfdd0a954821f1362"
+        }
+      ]
+    }
+  ]
+}

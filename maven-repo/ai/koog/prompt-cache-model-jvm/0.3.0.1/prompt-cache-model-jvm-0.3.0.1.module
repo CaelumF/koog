@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../prompt-cache-model/0.3.0.1/prompt-cache-model-0.3.0.1.module",
+    "group": "ai.koog",
+    "module": "prompt-cache-model",
+    "version": "0.3.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-tools",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-model",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-cache-model-jvm-0.3.0.1.jar",
+          "url": "prompt-cache-model-jvm-0.3.0.1.jar",
+          "size": 26845,
+          "sha512": "31f1480dd3552e265601b2d2de178ae90efa8c811ab0c9186bd4d40dff4e2bf30bfd8b846e8c37374cf478e5b970c3b0320d88365de55b47360770cc47973a73",
+          "sha256": "10d0f4470c9aa6db9b73abf9262d3aa47d457d667da47eeb0387462feb93d697",
+          "sha1": "f5aacc64f50302b1cb760f21b591d90ef1efa5c6",
+          "md5": "e19a380880b9acef27aadca3a2f1fe8a"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ai.koog",
+          "module": "agents-tools",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "prompt-model",
+          "version": {
+            "requires": "0.3.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "prompt-cache-model-jvm-0.3.0.1.jar",
+          "url": "prompt-cache-model-jvm-0.3.0.1.jar",
+          "size": 26845,
+          "sha512": "31f1480dd3552e265601b2d2de178ae90efa8c811ab0c9186bd4d40dff4e2bf30bfd8b846e8c37374cf478e5b970c3b0320d88365de55b47360770cc47973a73",
+          "sha256": "10d0f4470c9aa6db9b73abf9262d3aa47d457d667da47eeb0387462feb93d697",
+          "sha1": "f5aacc64f50302b1cb760f21b591d90ef1efa5c6",
+          "md5": "e19a380880b9acef27aadca3a2f1fe8a"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "prompt-cache-model-jvm-0.3.0.1-sources.jar",
+          "url": "prompt-cache-model-jvm-0.3.0.1-sources.jar",
+          "size": 5387,
+          "sha512": "921ded8a17f300ee79282cb0c5208cbf7983bafb2ce29900e9275ae2cacc19a05cf2b0fd6e58754673a6d0438ec288f1ab7754943f452018e9bedbf12964e86a",
+          "sha256": "70ef07d5f664bd89cd2a358e2b7f721c939f4e414bef1a74825a90f9d6f215f7",
+          "sha1": "efa4b7ea08c4aff3efc74dc6249dcd0eb6d5e15a",
+          "md5": "4f1231cef25bed1632442ae8ddfa0e47"
+        }
+      ]
+    }
+  ]
+}
